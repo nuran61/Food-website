@@ -24,7 +24,7 @@
             <div class="col-lg-2">
                 <div class=" header-logo">
                     <a href="homepage.blade.php">
-                        <img src="img/logo.png" width="50" height="50" alt="Logo">
+                        <img src="img/logo.png" width="160" height="36" alt="Logo">
                     </a>
                 </div>
             </div>
@@ -62,6 +62,82 @@
         </div>
     </div>
 </header>
+<!-- header ends -->
+
+<div id="viewport">
+    <div id="js-scroll-content">
+        <section class="main-banner" id="home">
+            <div class="js-parallax-scene">
+                <div class="banner-shape-1 w-100" data-depth="0.30">
+                    <img src="img/berry.png" alt="">
+                </div>
+                <div class="banner-shape-2 w-100" data-depth="0.25">
+                    <img src="img/leaf.png" alt="">
+                </div>
+            </div>
+            <div class="sec-wp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="banner-text">
+                                <h1 class="h1-title">
+                                    welcome to our
+                                    <span>India</span>
+                                    restaurant.
+                                </h1>
+                                <p>This is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eius
+                                    vel tempore consectetur nesciunt? Nam eius tenetur recusandae optio aperiam.</p>
+                                <div class="banner-btn mt-4">
+                                    <a href="#menu" class="sec-btn">Check our Menu</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="banner-img-wp">
+                                <div class="banner-img" style="background-image: url('img/main-b.jpeg')">
+                                </div>
+                            </div>
+                            <div class="banner-img-text mt-4 m-auto">
+                                <h5 class="h5-title">Noodle</h5>
+                                <p>This is Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="brands-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="brand-title mb-5">
+                            <h5 class="h5-title">Trusted by 70+ companies</h5>
+                        </div>
+                        <div class="brands-row">
+                            <div class="brands-box">
+                                <img src="img/b1.png" alt="">
+                            </div>
+                            <div class="brands-box">
+                                <img src="img/b2.png" alt="">
+                            </div>
+                            <div class="brands-box">
+                                <img src="img/b3.png" alt="">
+                            </div>
+                            <div class="brands-box">
+                                <img src="img/b4.png" alt="">
+                            </div>
+                            <div class="brands-box">
+                                <img src="img/b5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
 
 <!-- jquery -->
 <script src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>

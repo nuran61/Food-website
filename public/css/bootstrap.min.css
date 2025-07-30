@@ -5024,7 +5024,7 @@ fieldset:disabled .btn {
     padding-right: 3rem
 }
 
-.alert-dismissible .btn-close {
+.alert-dismissible . btn-close {
     position: absolute;
     top: 0;
     right: 0;
