@@ -16,13 +16,14 @@
     <link rel="stylesheet" href="{{asset('style/css/homepage.css')}}">
 
 </head>
+
 <body class="body-fixed">
-<!-- start of header -->
+<!-- start of header  -->
 <header class="site-header">
     <div class="container">
         <div class="row">
             <div class="col-lg-2">
-                <div class=" header-logo">
+                <div class="header-logo">
                     <a href="homepage.blade.php">
                         <img src="img/logo.png" width="160" height="36" alt="Logo">
                     </a>
@@ -45,8 +46,7 @@
                         <form action="#" class="header-search-form for-des">
                             <input type="search" class="form-input" placeholder="Search Here...">
                             <button type="submit">
-                               <i class="uil uil-search"></i>"
-
+                                <i class="uil uil-search"></i>
                             </button>
                         </form>
                         <a href="javascript:void(0)" class="header-btn header-cart">
@@ -54,7 +54,7 @@
                             <span class="cart-number">3</span>
                         </a>
                         <a href="javascript:void(0)" class="header-btn">
-                            <i class="uil uil-user"></i>
+                            <i class="uil uil-user-md"></i>
                         </a>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
         </div>
     </div>
 </header>
-<!-- header ends -->
+<!-- header ends  -->
 
 <div id="viewport">
     <div id="js-scroll-content">
@@ -81,7 +81,7 @@
                         <div class="col-lg-6">
                             <div class="banner-text">
                                 <h1 class="h1-title">
-                                    welcome to our
+                                    Welcome to our
                                     <span>India</span>
                                     restaurant.
                                 </h1>
@@ -94,12 +94,12 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="banner-img-wp">
-                                <div class="banner-img" style="background-image: url('img/main-b.jpeg')">
+                                <div class="banner-img" style="background-image: url(img/main-b.jpeg);">
                                 </div>
                             </div>
                             <div class="banner-img-text mt-4 m-auto">
-                                <h5 class="h5-title">Noodle</h5>
-                                <p>This is Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                <h5 class="h5-title">Sushi</h5>
+                                <p>this is Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
@@ -136,8 +136,95 @@
                 </div>
             </div>
         </section>
+
+        <section class="about-sec section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec-title text-center mb-5">
+                            <p class="sec-sub-title mb-3">About Us</p>
+                            <h2 class="h2-title">Discover our <span>restaurant story</span></h2>
+                            <div class="sec-title-shape mb-4">
+                                <img src="assets/images/title-shape.svg" alt="">
+                            </div>
+                            <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore at
+                                aspernatur eveniet temporibus placeat voluptatum quaerat accusamus possimus
+                                cupiditate, quidem impedit sed libero id perspiciatis esse earum repellat quam.
+                                Dolore modi temporibus quae possimus accusantium, cum corrupti sed deserunt iusto at
+                                sapiente nihil sint iste similique soluta dolor! Quod.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 m-auto">
+                        <div class="about-video">
+                            <div class="about-video-img" style="background-image: url('{{ asset('img/about.jpeg') }}');">
+                            </div>
+                            <div class="play-btn-wp">
+                                <a href="assets/img/video.mp4" data-fancybox="video" class="play-btn">
+                                    <i class="uil uil-play"></i>
+
+                                </a>
+                                <span>Watch The Recipe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-image: url(img/menu-bg.png);" class="our-menu section bg-light repeat-img" id="menu">
+            <div class="sec-wp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">our menu</p>
+                                <h2 class="h2-title">wake up early, <span>eat fresh & healthy</span></h2>
+                                <div class="sec-title-shape mb-4">
+                                    <img src="img/title-shape.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-tab-wp">
+                        <div class="row">
+                            <div class="col-lg-12 m-auto">
+                                <div class="menu-tab text-center">
+                                    <ul class="filters">
+                                        <div class="filter-active"></div>
+                                        <li class="filter" data-filter=".all , .breakfast, .lunch, .dinner">
+                                            <img src="assets/img/menu-1.png" alt="">
+                                            All
+                                        </li>
+                                        <li class="filter" data-filter=".breakfast">
+                                            <img src="assets/img/menu-2.png" alt="">
+                                            Breakfast
+                                        </li>
+                                        <li class="filter" data-filter=".lunch">
+                                            <img src="assets/img/menu-3.png" alt="">
+                                            Lunch
+                                        </li>
+                                        <li class="filter" data-filter=".dinner">
+                                            <img src="assets/img/menu-4.png" alt="">
+                                            Dinner
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </div>
+
+
+
+
+
+
 
 <!-- jquery -->
 <script src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
@@ -170,7 +257,7 @@
 <script src="{{ asset('js/ScrollToPlugin.min.js') }}"></script>
 
 <!--rellax-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script> -->
 
 <!--smooth scroll-->
 <script src="{{ asset('js/smooth-scroll.js') }}"></script>
