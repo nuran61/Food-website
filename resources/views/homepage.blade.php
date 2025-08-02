@@ -574,28 +574,28 @@
                                 <div class="swiper-wrapper">
                                     <a href="img/bt1.jpg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(/img/bt1.jpeg)"></a>
+                                       style="background-image: url(/img/bt1.jpg)"></a>
                                     <a href="img/bt2.jpeg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt2.jpeg)"></a>
+                                       style="background-image: url(img/bt2.jpg)"></a>
                                     <a href="img/bt3.jpeg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt3.jpeg)"></a>
+                                       style="background-image: url(img/bt3.jpg)"></a>
                                     <a href="img/bt4.jpeg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt4.jpeg)"></a>
+                                       style="background-image: url(img/bt4.jpg)"></a>
                                     <a href="img/bt1.jpeg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt1.jpeg)"></a>
+                                       style="background-image: url(img/bt1.jpg)"></a>
                                     <a href="img/bt2.jpeg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt2.jpeg)"></a>
+                                       style="background-image: url(img/bt2.jpg)"></a>
                                     <a href="img/bt3.jpeg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt3.jpeg)"></a>
+                                       style="background-image: url(img/bt3.jpg)"></a>
                                     <a href="img/bt4.jpeg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt4.jpeg)"></a>
+                                       style="background-image: url(img/bt4.jpg)"></a>
                                 </div>
 
                                 <div class="swiper-button-wp">
@@ -615,6 +615,154 @@
 
                 </div>
             </div>
+        </section>
+
+        <section class="our-team section">
+            <div class="sec-wp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">Our Team</p>
+                                <h2 class="h2-title">Meet our Chefs</h2>
+                                <div class="sec-title-shape mb-4">
+                                    <img src="img/title-shape.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row team-slider">
+                        <div class="swiper-wrapper">
+                            <div class="col-lg-4 swiper-slide">
+                                <div class="team-box text-center">
+                                    <div style="background-image: url('{{ asset('img/chef/c1.jpg') }}');" class="team-img back-img">
+                                    </div>
+
+                                    <h3 class="h3-title">Biainardo</h3>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-youtube"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4 swiper-slide">
+                                <div class="team-box text-center">
+                                    <div style="background-image: url('{{ asset('img/chef/c2.jpg') }}');" class="team-img back-img">
+                                    </div>
+
+                                    <h3 class="h3-title">Carlino</h3>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-youtube"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4 swiper-slide">
+                                <div class="team-box text-center">
+                                    <div style="background-image: url('{{ asset('img/chef/c3.jpg') }}');" class="team-img back-img">
+                                    </div>
+
+                                    <h3 class="h3-title">Ermando</h3>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-youtube"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 swiper-slide">
+                                <div class="team-box text-center">
+                                    <div style="background-image: url('{{ asset('img/chef/c4.jpg') }}');" class="team-img back-img">
+                                    </div>
+
+                                    <h3 class="h3-title">Francesco</h3>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-youtube"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 swiper-slide">
+                                <div class="team-box text-center">
+                                    <div style="background-image: url('{{ asset('img/chef/c5.jpg') }}');" class="team-img back-img">
+                                    </div>
+
+                                    <h3 class="h3-title">Guglielmo</h3>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-youtube"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-wp">
+                        <div class="swiper-button-prev swiper-button">
+                            <i class="uil uil-angle-left"></i>
+                        </div>
+                        <div class="swiper-button-next swiper-botton">
+                            <i class="uil uil-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </section>
 
 
