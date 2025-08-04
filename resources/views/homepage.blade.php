@@ -473,7 +473,7 @@
         </section>
 
 
-        <section clas="two-col-sec section">
+        <section class="two-col-sec section">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5">
@@ -548,7 +548,7 @@
                     <div class="book-table-info">
                         <div class="row align-items-center">
                             <div class="col-lg-4">
-                                <div clas="table-title text-center">
+                                <div class="table-title text-center">
                                     <h3>Monday to Thursday</h3>
                                     <p>9:00 am - 22:00 pm</p>
                                 </div>
@@ -760,16 +760,359 @@
                     </div>
                 </div>
             </div>
-
-
-
         </section>
 
+        <section class="testimonials section bg-light">
+            <div class="sec-wp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">What they say</p>
+                                <h2 class="h2-title">What our customers <span>say about us</span></h2>
+                                <div class="sec-title-shape mb-4">
+                                    <img src="img/title-shape.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="testimonials-img">
+                                <img src="img/testimonial-img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="testimonials-box">
+                                        <div class="testimonial-box-top">
+                                            <div class="testimonials-box-img back-img"
+                                                 style="background-image: url(img/testimonials/t1.jpg);">
+                                            </div>
+                                            <div class="star-rating-wp">
+                                                <div class="star-rating">
+                                                    <span class="star-rating__fill" style="width:85%"></span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="testimonials-box-text">
+                                            <h3 class="h3-title">
+                                                Adam
+                                            </h3>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                                quisquam.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="testimonials-box">
+                                        <div class="testimonial-box-top">
+                                            <div class="testimonials-box-img back-img"
+                                                 style="background-image: url(img/testimonials/t2.jpg);">
+                                            </div>
+                                            <div class="star-rating-wp">
+                                                <div class="star-rating">
+                                                    <span class="star-rating__fill" style="width:80%"></span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="testimonials-box-text">
+                                            <h3 class="h3-title">
+                                                Jack
+                                            </h3>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                                quisquam.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="testimonials-box">
+                                        <div class="testimonial-box-top">
+                                            <div class="testimonials-box-img back-img"
+                                                 style="background-image: url(img/testimonials/t3.jpg);">
+                                            </div>
+                                            <div class="star-rating-wp">
+                                                <div class="star-rating">
+                                                    <span class="star-rating__fill" style="width:89%"></span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="testimonials-box-text">
+                                            <h3 class="h3-title">
+                                                Tom
+                                            </h3>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                                quisquam.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="testimonials-box">
+                                        <div class="testimonial-box-top">
+                                            <div class="testimonials-box-img back-img"
+                                                 style="background-image: url(img/testimonials/t4.jpg);">
+                                            </div>
+                                            <div class="star-rating-wp">
+                                                <div class="star-rating">
+                                                    <span class="star-rating__fill" style="width:100%"></span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="testimonials-box-text">
+                                            <h3 class="h3-title">
+                                                Mark
+                                            </h3>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                                quisquam.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="faq-sec section-repeat-img" style="background-image: url(img/faq-bg.png);">
+            <div class="sec-wp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">faqs</p>
+                                <h2 class="h2-title">Frequently <span>asked question</span></h2>
+                                <div class="title-shape mb-4">
+                                    <img src="img/title-shape.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-row">
+                        <div class="faq-box">
+                            <h4 class="h4-title">What are the login hours?</h4>
+                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
+                                vitae fugit laboriosam dolor distinctio.</p>
+                        </div>
+                        <div class="faq-box">
+                            <h4 class="h4-title">What do i get my refund?</h4>
+                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
+                                vitae fugit laboriosam dolor distinctio.</p>
+                        </div>
+                        <div class="faq-box">
+                            <h4 class="h4-title">How long it will take food to arrive?</h4>
+                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
+                                vitae fugit laboriosam dolor distinctio.</p>
+                        </div>
+                        <div class="faq-box">
+                            <h4 class="h4-title">Does your restaurant has both veg and non veg?</h4>
+                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
+                                vitae fugit laboriosam dolor distinctio.</p>
+                        </div>
+                        <div class="faq-box">
+                            <h4 class="h4-title">What is cost of food delivery?</h4>
+                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
+                                vitae fugit laboriosam dolor distinctio.</p>
+                        </div>
+                        <div class="faq-box">
+                            <h4 class="h4-title">Who is eligible for pro membership?</h4>
+                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
+                                vitae fugit laboriosam dolor distinctio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="bg-pattern bg-light repeat-img" style="background-image: url(img/blog-pattern-bg.png);">
+            <section class="blog-sec section" id="blog">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Our blog</p>
+                                    <h2 class="h2-title">Latest Publications</h2>
+                                    <div class="title-shape mb-4">
+                                        <img src="img/title-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="blog-box">
+                                    <div class="blog-img back-img" style="background-image: url(img/blog/blog1.jpg);"></div>
+                                    <div class="blog-text">
+                                        <p class="blog-date">September.15.2001</p>
+                                        <a href="#" class="h4-title">Energy Drink which you can make at home.</a>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
+                                            explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
+                                            blanditiis amet ad.</p>
+                                        <a href="#" class="sec-btn">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="blog-box">
+                                    <div class="blog-img back-img" style="background-image: url(img/blog/blog2.jpg);"></div>
+                                    <div class="blog-text">
+                                        <p class="blog-date">October.15.2001</p>
+                                        <a href="#" class="h4-title">Fresh veggie and rice combo for dinner.</a>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
+                                            explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
+                                            blanditiis amet ad.</p>
+                                        <a href="#" class="sec-btn">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="blog-box">
+                                    <div class="blog-img back-img" style="background-image: url(img/blog/blog3.jpg);"></div>
+                                    <div class="blog-text">
+                                        <p class="blog-date">November.15.2001</p>
+                                        <a href="#" class="h4-title">Chicken burger with double nuggets</a>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
+                                            explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
+                                            blanditiis amet ad.</p>
+                                        <a href="#" class="sec-btn">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="newsletter-sec section pt-0">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 m-auto">
+                                <div class="newsletter-box text-center back-img white-text"
+                                     style="background-image: url(img/news.jpg);">
+                                    <div class="bg-overlay dark overlay">
+                                        <div class="sec-wp">
+                                            <div class="newsletter-box-text">
+                                                <h2 class="h2-title">Subscribe our newsletter</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
+                                                    explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
+                                                    blanditiis amet ad.</p>
+                                            </div>
+                                            <form action="#" class="newsletter-form">
+                                                <input type="email" class="form-input"
+                                                       placeholder="Enter your Email Here" required>
+                                                        <button type="submit" class="sec-btn primary-btn">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <! -- footer starts -->
+        <footer class="site-footer" id="contact">
+            <div class="top-footer section">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="footer-info">
+                                    <div class="footer-logo">
+                                        <a href="index.html">
+                                            <img src="logo.png" alt="">
+                                        </a>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
+                                        explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
+                                        blanditiis amet ad.</p>
+                                    <div class="social-icons">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="uil uil-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-instagram"></i></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-github-alt"></i></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="uil uil-youtube"></i></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="footer-flex-box">
+                                    <div class="footer-table-info">
+                                        <h3 class="h3-title">open hours</h3>
+                                        <ul>
+                                            <li><i class="uil uil-clock"></i>Monday-Thursday : 9am - 22pm</li>
+                                            <li><i class="uil uil-clock"></i>Friday-Sunday : 11am - 22pm</li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-menu food-fav-menu">
+                                        <h3 class="h3-title">Links</h3>
+                                        <ul class="column-2">
+                                            <li>
+                                                <a href="#home" class="footer-active-menu">Home</a>
+                                            </li>
+                                            <li><a href="#about">About</a></li>
+                                            <li><a href="#menu">Menu</a></li>
+                                            <li><a href="#gallery">Gallery</a></li>
+                                            <li><a href="#blog">Blog</a></li>
+                                            <li><a href="#contact">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-menu">
+                                        <h3 class="h3-title">Company</h3>
+                                        <ul>
+                                            <li><a href="#">Terms & Conditions</a></li>
+                                            <li><a href="#">Privacy</a></li>
+                                            <li><a href="#">Cookie Policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2021 <span class="name">TechieCoder.</span>All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="scrolltop"><i class="uil uil-angle-up"></i></button>
+                </div>
+            </div>
+        </footer>
 
 
     </div>
 </div>
-
 
 
 
