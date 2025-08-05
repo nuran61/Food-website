@@ -24,7 +24,7 @@
         <div class="row">
             <div class="col-lg-2">
                 <div class="header-logo">
-                    <a href="homepage.blade.php">
+                    <a href="index.html">
                         <img src="img/logo.png" width="160" height="36" alt="Logo">
                     </a>
                 </div>
@@ -145,7 +145,7 @@
                             <p class="sec-sub-title mb-3">About Us</p>
                             <h2 class="h2-title">Discover our <span>restaurant story</span></h2>
                             <div class="sec-title-shape mb-4">
-                                <img src="assets/images/title-shape.svg" alt="">
+                                <img src="img/title-shape.svg" alt="">
                             </div>
                             <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore at
                                 aspernatur eveniet temporibus placeat voluptatum quaerat accusamus possimus
@@ -158,10 +158,10 @@
                 <div class="row">
                     <div class="col-lg-8 m-auto">
                         <div class="about-video">
-                            <div class="about-video-img" style="background-image: url('{{ asset('img/about.jpeg') }}');">
+                            <div class="about-video-img" style="background-image: url(img/about.jpeg);">
                             </div>
                             <div class="play-btn-wp">
-                                <a href="assets/img/video.mp4" data-fancybox="video" class="play-btn">
+                                <a href="img/video.mp4" data-fancybox="video" class="play-btn">
                                     <i class="uil uil-play"></i>
 
                                 </a>
@@ -173,7 +173,8 @@
             </div>
         </section>
 
-        <section style="background-image: url(img/menu-bg.png);" class="our-menu section bg-light repeat-img" id="menu">
+        <section style="background-image: url(img/menu-bg.png);"
+                 class="our-menu section bg-light repeat-img" id="menu">
             <div class="sec-wp">
                 <div class="container">
                     <div class="row">
@@ -218,7 +219,7 @@
                         <div class="row g-xxl-5 bydefault_show" id="menu-dish">
                             <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
                                 <div class="dish-box text-center">
-                                    <div class="dish-img">
+                                    <div class="dist-img">
                                         <img src="img/dish/1.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -236,15 +237,15 @@
                                                 <b>Non Veg</b>
                                             </li>
                                             <li>
-                                                <p>Person</p>
+                                                <p>Persons</p>
                                                 <b>2</b>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dish-bottom-row">
+                                    <div class="dist-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>$29</b>
+                                                <b>Rs. 499</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -257,10 +258,9 @@
                             </div>
 
                             <!-- 2 -->
-
                             <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
                                 <div class="dish-box text-center">
-                                    <div class="dish-img">
+                                    <div class="dist-img">
                                         <img src="img/dish/2.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -278,15 +278,15 @@
                                                 <b>Non Veg</b>
                                             </li>
                                             <li>
-                                                <p>Person</p>
+                                                <p>Persons</p>
                                                 <b>1</b>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dish-bottom-row">
+                                    <div class="dist-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>$59</b>
+                                                <b>Rs. 359</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -297,12 +297,10 @@
                                     </div>
                                 </div>
                             </div>
-
                             <!-- 3 -->
-
                             <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
                                 <div class="dish-box text-center">
-                                    <div class="dish-img">
+                                    <div class="dist-img">
                                         <img src="img/dish/3.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -320,15 +318,15 @@
                                                 <b>Veg</b>
                                             </li>
                                             <li>
-                                                <p>Person</p>
+                                                <p>Persons</p>
                                                 <b>2</b>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dish-bottom-row">
+                                    <div class="dist-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>$49</b>
+                                                <b>Rs. 149</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -341,10 +339,9 @@
                             </div>
 
                             <!-- 4 -->
-
                             <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
                                 <div class="dish-box text-center">
-                                    <div class="dish-img">
+                                    <div class="dist-img">
                                         <img src="img/dish/4.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -362,15 +359,15 @@
                                                 <b>Non Veg</b>
                                             </li>
                                             <li>
-                                                <p>Person</p>
+                                                <p>Persons</p>
                                                 <b>2</b>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dish-bottom-row">
+                                    <div class="dist-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>$35</b>
+                                                <b>Rs. 379</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -383,10 +380,9 @@
                             </div>
 
                             <!-- 5 -->
-
                             <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
                                 <div class="dish-box text-center">
-                                    <div class="dish-img">
+                                    <div class="dist-img">
                                         <img src="img/dish/5.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -404,15 +400,15 @@
                                                 <b>Non Veg</b>
                                             </li>
                                             <li>
-                                                <p>Person</p>
+                                                <p>Persons</p>
                                                 <b>2</b>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dish-bottom-row">
+                                    <div class="dist-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>$25</b>
+                                                <b>Rs. 99</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -423,12 +419,10 @@
                                     </div>
                                 </div>
                             </div>
-
                             <!-- 6 -->
-
                             <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
                                 <div class="dish-box text-center">
-                                    <div class="dish-img">
+                                    <div class="dist-img">
                                         <img src="img/dish/6.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -446,15 +440,15 @@
                                                 <b>Veg</b>
                                             </li>
                                             <li>
-                                                <p>Person</p>
+                                                <p>Persons</p>
                                                 <b>2</b>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dish-bottom-row">
+                                    <div class="dist-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>$50</b>
+                                                <b>Rs. 159</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -465,13 +459,11 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
 
         <section class="two-col-sec section">
             <div class="container">
@@ -491,6 +483,7 @@
                                 laboriosam, repudiandae exercitationem atque a excepturi vel. Voluptas, ipsa.</p>
                             <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit laborum
                                 voluptas magnam sed ad illum? Minus officiis quod deserunt.</p>
+
                         </div>
                     </div>
                 </div>
@@ -502,7 +495,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 order-lg-1 order-2">
                         <div class="sec-text">
-                            <h2 class="xxl-title">Chicken Pepperoni</h2>
+                            <h2 class="xxl-title">Sushi</h2>
                             <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores
                                 eligendi earum eveniet soluta officiis asperiores repellat, eum praesentium nihil
                                 totam. Non ipsa expedita repellat atque mollitia praesentium assumenda quo
@@ -530,7 +523,6 @@
                 <img src="img/table-leaves-shape.png" alt="">
             </div>
 
-
             <div class="sec-wp">
                 <div class="container">
                     <div class="row">
@@ -556,13 +548,13 @@
                             <div class="col-lg-4">
                                 <div class="call-now text-center">
                                     <i class="uil uil-phone"></i>
-                                    <a href="tel:+1 (202) 245-5400">+1 (202) 245-5400</a>
+                                    <a href="tel:+91-8866998866">+91 - 8866998866</a>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="table-title text-center">
                                     <h3>Friday to Sunday</h3>
-                                    <p>11:00 am - 20:00 pm</p>
+                                    <p>11::00 am to 20:00 pm</p>
                                 </div>
                             </div>
                         </div>
@@ -574,26 +566,26 @@
                                 <div class="swiper-wrapper">
                                     <a href="img/bt1.jpg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(/img/bt1.jpg)"></a>
-                                    <a href="img/bt2.jpeg" data-fancybox="table-slider"
+                                       style="background-image: url(img/bt1.jpg)"></a>
+                                    <a href="img/bt2.jpg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
                                        style="background-image: url(img/bt2.jpg)"></a>
-                                    <a href="img/bt3.jpeg" data-fancybox="table-slider"
+                                    <a href="img/bt3.jpg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
                                        style="background-image: url(img/bt3.jpg)"></a>
-                                    <a href="img/bt4.jpeg" data-fancybox="table-slider"
+                                    <a href="img/bt4.jpg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
                                        style="background-image: url(img/bt4.jpg)"></a>
-                                    <a href="img/bt1.jpeg" data-fancybox="table-slider"
+                                    <a href="img/bt1.jpg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
                                        style="background-image: url(img/bt1.jpg)"></a>
-                                    <a href="img/bt2.jpeg" data-fancybox="table-slider"
+                                    <a href="img/bt2.jpg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
                                        style="background-image: url(img/bt2.jpg)"></a>
-                                    <a href="img/bt3.jpeg" data-fancybox="table-slider"
+                                    <a href="img/bt3.jpg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
                                        style="background-image: url(img/bt3.jpg)"></a>
-                                    <a href="img/bt4.jpeg" data-fancybox="table-slider"
+                                    <a href="img/bt4.jpg" data-fancybox="table-slider"
                                        class="book-table-img back-img swiper-slide"
                                        style="background-image: url(img/bt4.jpg)"></a>
                                 </div>
@@ -602,7 +594,7 @@
                                     <div class="swiper-button-prev swiper-button">
                                         <i class="uil uil-angle-left"></i>
                                     </div>
-                                    <div class="swiper-button-next swiper-botton">
+                                    <div class="swiper-button-next swiper-button">
                                         <i class="uil uil-angle-right"></i>
                                     </div>
                                 </div>
@@ -612,9 +604,9 @@
                     </div>
 
 
-
                 </div>
             </div>
+
         </section>
 
         <section class="our-team section">
@@ -635,128 +627,144 @@
                         <div class="swiper-wrapper">
                             <div class="col-lg-4 swiper-slide">
                                 <div class="team-box text-center">
-                                    <div style="background-image: url('{{ asset('img/chef/c1.jpg') }}');" class="team-img back-img">
-                                    </div>
+                                    <div style="background-image: url(img/chef/c1.jpg);"
+                                         class="team-img back-img">
 
-                                    <h3 class="h3-title">Biainardo</h3>
+                                    </div>
+                                    <h3 class="h3-title">Nilay Hirpara</h3>
                                     <div class="social-icon">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="uil uil-facebook-f"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-instagram"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-youtube"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-youtube"></i>
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-
-
                             <div class="col-lg-4 swiper-slide">
                                 <div class="team-box text-center">
-                                    <div style="background-image: url('{{ asset('img/chef/c2.jpg') }}');" class="team-img back-img">
-                                    </div>
+                                    <div style="background-image: url(img/chef/c2.jpg);"
+                                         class="team-img back-img">
 
-                                    <h3 class="h3-title">Carlino</h3>
+                                    </div>
+                                    <h3 class="h3-title">Ravi Kumawat</h3>
                                     <div class="social-icon">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="uil uil-facebook-f"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-instagram"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-youtube"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-youtube"></i>
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-
-
                             <div class="col-lg-4 swiper-slide">
                                 <div class="team-box text-center">
-                                    <div style="background-image: url('{{ asset('img/chef/c3.jpg') }}');" class="team-img back-img">
-                                    </div>
+                                    <div style="background-image: url(img/chef/c3.jpg);"
+                                         class="team-img back-img">
 
-                                    <h3 class="h3-title">Ermando</h3>
+                                    </div>
+                                    <h3 class="h3-title">Navnit Kumar</h3>
                                     <div class="social-icon">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="uil uil-facebook-f"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-instagram"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-youtube"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-youtube"></i>
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-lg-4 swiper-slide">
                                 <div class="team-box text-center">
-                                    <div style="background-image: url('{{ asset('img/chef/c4.jpg') }}');" class="team-img back-img">
-                                    </div>
+                                    <div style="background-image: url(img/chef/c4.jpg);"
+                                         class="team-img back-img">
 
-                                    <h3 class="h3-title">Francesco</h3>
+                                    </div>
+                                    <h3 class="h3-title">Pranav Badgal</h3>
                                     <div class="social-icon">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="uil uil-facebook-f"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-instagram"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-youtube"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-youtube"></i>
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-lg-4 swiper-slide">
                                 <div class="team-box text-center">
-                                    <div style="background-image: url('{{ asset('img/chef/c5.jpg') }}');" class="team-img back-img">
-                                    </div>
+                                    <div style="background-image: url(img/chef/c5.jpg);"
+                                         class="team-img back-img">
 
-                                    <h3 class="h3-title">Guglielmo</h3>
+                                    </div>
+                                    <h3 class="h3-title">Priyotosh Dey</h3>
                                     <div class="social-icon">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="uil uil-facebook-f"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-instagram"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-youtube"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-youtube"></i>
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class="swiper-button-wp">
-                        <div class="swiper-button-prev swiper-button">
-                            <i class="uil uil-angle-left"></i>
+                        <div class="swiper-button-wp">
+                            <div class="swiper-button-prev swiper-button">
+                                <i class="uil uil-angle-left"></i>
+                            </div>
+                            <div class="swiper-button-next swiper-button">
+                                <i class="uil uil-angle-right"></i>
+                            </div>
                         </div>
-                        <div class="swiper-button-next swiper-botton">
-                            <i class="uil uil-angle-right"></i>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
@@ -799,7 +807,7 @@
                                         </div>
                                         <div class="testimonials-box-text">
                                             <h3 class="h3-title">
-                                                Adam
+                                                Nilay Hirpara
                                             </h3>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
                                                 quisquam.</p>
@@ -821,7 +829,7 @@
                                         </div>
                                         <div class="testimonials-box-text">
                                             <h3 class="h3-title">
-                                                Jack
+                                                Ravi Kumawat
                                             </h3>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
                                                 quisquam.</p>
@@ -843,7 +851,7 @@
                                         </div>
                                         <div class="testimonials-box-text">
                                             <h3 class="h3-title">
-                                                Tom
+                                                Navnit Kumar
                                             </h3>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
                                                 quisquam.</p>
@@ -865,7 +873,7 @@
                                         </div>
                                         <div class="testimonials-box-text">
                                             <h3 class="h3-title">
-                                                Mark
+                                                Somyadeep Bhowmik
                                             </h3>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
                                                 quisquam.</p>
@@ -879,7 +887,6 @@
             </div>
         </section>
 
-
         <section class="faq-sec section-repeat-img" style="background-image: url(img/faq-bg.png);">
             <div class="sec-wp">
                 <div class="container">
@@ -887,8 +894,8 @@
                         <div class="col-lg-12">
                             <div class="sec-title text-center mb-5">
                                 <p class="sec-sub-title mb-3">faqs</p>
-                                <h2 class="h2-title">Frequently <span>asked question</span></h2>
-                                <div class="title-shape mb-4">
+                                <h2 class="h2-title">Frequently <span>asked questions</span></h2>
+                                <div class="sec-title-shape mb-4">
                                     <img src="img/title-shape.svg" alt="">
                                 </div>
                             </div>
@@ -904,7 +911,7 @@
                         <div class="faq-box">
                             <h4 class="h4-title">What do i get my refund?</h4>
                             <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
-                                vitae fugit laboriosam dolor distinctio.</p>
+                                vitae fugit laboriosam dolor distinctio. Lorem ipsum dolor sit amet.</p>
                         </div>
                         <div class="faq-box">
                             <h4 class="h4-title">How long it will take food to arrive?</h4>
@@ -914,24 +921,30 @@
                         <div class="faq-box">
                             <h4 class="h4-title">Does your restaurant has both veg and non veg?</h4>
                             <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
-                                vitae fugit laboriosam dolor distinctio.</p>
+                                vitae fugit laboriosam dolor distinctio. Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Voluptates, distinctio?</p>
                         </div>
                         <div class="faq-box">
                             <h4 class="h4-title">What is cost of food delivery?</h4>
                             <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
-                                vitae fugit laboriosam dolor distinctio.</p>
+                                vitae fugit laboriosam dolor distinctio. Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Nam officiis ducimus, cum enim repudiandae animi.</p>
                         </div>
                         <div class="faq-box">
                             <h4 class="h4-title">Who is eligible for pro membership?</h4>
                             <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
-                                vitae fugit laboriosam dolor distinctio.</p>
+                                vitae fugit laboriosam dolor distinctio. </p>
                         </div>
                     </div>
+
                 </div>
             </div>
+
         </section>
 
-        <div class="bg-pattern bg-light repeat-img" style="background-image: url(img/blog-pattern-bg.png);">
+
+        <div class="bg-pattern bg-light repeat-img"
+             style="background-image: url(img/blog-pattern-bg.png);">
             <section class="blog-sec section" id="blog">
                 <div class="sec-wp">
                     <div class="container">
@@ -939,8 +952,8 @@
                             <div class="col-lg-12">
                                 <div class="sec-title text-center mb-5">
                                     <p class="sec-sub-title mb-3">Our blog</p>
-                                    <h2 class="h2-title">Latest Publications</h2>
-                                    <div class="title-shape mb-4">
+                                    <h2 class="h2-title">Latest Publications</span></h2>
+                                    <div class="sec-title-shape mb-4">
                                         <img src="img/title-shape.svg" alt="">
                                     </div>
                                 </div>
@@ -949,9 +962,10 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="blog-box">
-                                    <div class="blog-img back-img" style="background-image: url(img/blog/blog1.jpg);"></div>
+                                    <div class="blog-img back-img"
+                                         style="background-image: url(img/blog/blog1.jpg);"></div>
                                     <div class="blog-text">
-                                        <p class="blog-date">September.15.2001</p>
+                                        <p class="blog-date">September.15.2021</p>
                                         <a href="#" class="h4-title">Energy Drink which you can make at home.</a>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
                                             explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
@@ -962,10 +976,11 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="blog-box">
-                                    <div class="blog-img back-img" style="background-image: url(img/blog/blog2.jpg);"></div>
+                                    <div class="blog-img back-img"
+                                         style="background-image: url(img/blog/blog2.jpg);"></div>
                                     <div class="blog-text">
-                                        <p class="blog-date">October.15.2001</p>
-                                        <a href="#" class="h4-title">Fresh veggie and rice combo for dinner.</a>
+                                        <p class="blog-date">October.15.2021</p>
+                                        <a href="#" class="h4-title">Fresh Veggie and rice combo for dinner.</a>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
                                             explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
                                             blanditiis amet ad.</p>
@@ -975,9 +990,10 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="blog-box">
-                                    <div class="blog-img back-img" style="background-image: url(img/blog/blog3.jpg);"></div>
+                                    <div class="blog-img back-img"
+                                         style="background-image: url(img/blog/blog3.jpg);"></div>
                                     <div class="blog-text">
-                                        <p class="blog-date">November.15.2001</p>
+                                        <p class="blog-date">November.15.2021</p>
                                         <a href="#" class="h4-title">Chicken burger with double nuggets</a>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
                                             explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
@@ -991,7 +1007,6 @@
                 </div>
             </section>
 
-
             <section class="newsletter-sec section pt-0">
                 <div class="sec-wp">
                     <div class="container">
@@ -999,20 +1014,18 @@
                             <div class="col-lg-8 m-auto">
                                 <div class="newsletter-box text-center back-img white-text"
                                      style="background-image: url(img/news.jpg);">
-                                    <div class="bg-overlay dark overlay">
-                                        <div class="sec-wp">
-                                            <div class="newsletter-box-text">
-                                                <h2 class="h2-title">Subscribe our newsletter</h2>
-                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
-                                                    explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
-                                                    blanditiis amet ad.</p>
-                                            </div>
-                                            <form action="#" class="newsletter-form">
-                                                <input type="email" class="form-input"
-                                                       placeholder="Enter your Email Here" required>
-                                                        <button type="submit" class="sec-btn primary-btn">Submit</button>
-                                            </form>
+                                    <div class="bg-overlay dark-overlay"></div>
+                                    <div class="sec-wp">
+                                        <div class="newsletter-box-text">
+                                            <h2 class="h2-title">Subscribe our newsletter</h2>
+                                            <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit ad
+                                                veritatis.</p>
                                         </div>
+                                        <form action="#" class="newsletter-form">
+                                            <input type="email" class="form-input"
+                                                   placeholder="Enter your Email Here" required>
+                                            <button type="submit" class="sec-btn primary-btn">Submit</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -1022,7 +1035,7 @@
             </section>
         </div>
 
-        <! -- footer starts -->
+        <!-- footer starts  -->
         <footer class="site-footer" id="contact">
             <div class="top-footer section">
                 <div class="sec-wp">
@@ -1035,25 +1048,28 @@
                                             <img src="logo.png" alt="">
                                         </a>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
-                                        explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
-                                        blanditiis amet ad.</p>
-                                    <div class="social-icons">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, tenetur.
+                                    </p>
+                                    <div class="social-icon">
                                         <ul>
                                             <li>
-                                                <a href="#"><i class="uil uil-facebook-f"></i>
+                                                <a href="#">
+                                                    <i class="uil uil-facebook-f"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-instagram"></i></i>
+                                                <a href="#">
+                                                    <i class="uil uil-instagram"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-github-alt"></i></i>
+                                                <a href="#">
+                                                    <i class="uil uil-github-alt"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="uil uil-youtube"></i></i>
+                                                <a href="#">
+                                                    <i class="uil uil-youtube"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -1065,11 +1081,11 @@
                                     <div class="footer-table-info">
                                         <h3 class="h3-title">open hours</h3>
                                         <ul>
-                                            <li><i class="uil uil-clock"></i>Monday-Thursday : 9am - 22pm</li>
-                                            <li><i class="uil uil-clock"></i>Friday-Sunday : 11am - 22pm</li>
+                                            <li><i class="uil uil-clock"></i> Monday - Thursday : 9am - 22pm</li>
+                                            <li><i class="uil uil-clock"></i> Friday - Sunday : 11am - 22pm</li>
                                         </ul>
                                     </div>
-                                    <div class="footer-menu food-fav-menu">
+                                    <div class="footer-menu food-nav-menu">
                                         <h3 class="h3-title">Links</h3>
                                         <ul class="column-2">
                                             <li>
@@ -1086,7 +1102,7 @@
                                         <h3 class="h3-title">Company</h3>
                                         <ul>
                                             <li><a href="#">Terms & Conditions</a></li>
-                                            <li><a href="#">Privacy</a></li>
+                                            <li><a href="#">Privacy Policy</a></li>
                                             <li><a href="#">Cookie Policy</a></li>
                                         </ul>
                                     </div>
@@ -1101,7 +1117,8 @@
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <div class="copyright-text">
-                                <p>Copyright &copy; 2021 <span class="name">TechieCoder.</span>All Rights Reserved</p>
+                                <p>Copyright &copy; 2021 <span class="name">TechieCoder.</span>All Rights Reserved.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1111,8 +1128,10 @@
         </footer>
 
 
+
     </div>
 </div>
+
 
 
 
