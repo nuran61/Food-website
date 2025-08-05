@@ -94,7 +94,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="banner-img-wp">
-                                <div class="banner-img" style="background-image: url(img/main-b.jpeg);">
+                                <div class="banner-img">
                                 </div>
                             </div>
                             <div class="banner-img-text mt-4 m-auto">
@@ -158,7 +158,7 @@
                 <div class="row">
                     <div class="col-lg-8 m-auto">
                         <div class="about-video">
-                            <div class="about-video-img" style="background-image: url(img/about.jpeg);">
+                            <div class="about-video-img">
                             </div>
                             <div class="play-btn-wp">
                                 <a href="img/video.mp4" data-fancybox="video" class="play-btn">
@@ -173,8 +173,7 @@
             </div>
         </section>
 
-        <section style="background-image: url(img/menu-bg.png);"
-                 class="our-menu section bg-light repeat-img" id="menu">
+        <section class="our-menu section bg-light repeat-img" id="menu">
             <div class="sec-wp">
                 <div class="container">
                     <div class="row">
@@ -219,7 +218,7 @@
                         <div class="row g-xxl-5 bydefault_show" id="menu-dish">
                             <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
                                 <div class="dish-box text-center">
-                                    <div class="dist-img">
+                                    <div class="dish-img">
                                         <img src="img/dish/1.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -242,7 +241,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dist-bottom-row">
+                                    <div class="dish-bottom-row">
                                         <ul>
                                             <li>
                                                 <b>Rs. 499</b>
@@ -260,7 +259,7 @@
                             <!-- 2 -->
                             <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
                                 <div class="dish-box text-center">
-                                    <div class="dist-img">
+                                    <div class="dish-img">
                                         <img src="img/dish/2.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -283,7 +282,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dist-bottom-row">
+                                    <div class="dish-bottom-row">
                                         <ul>
                                             <li>
                                                 <b>Rs. 359</b>
@@ -300,7 +299,7 @@
                             <!-- 3 -->
                             <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
                                 <div class="dish-box text-center">
-                                    <div class="dist-img">
+                                    <div class="dish-img">
                                         <img src="img/dish/3.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -323,7 +322,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dist-bottom-row">
+                                    <div class="dish-bottom-row">
                                         <ul>
                                             <li>
                                                 <b>Rs. 149</b>
@@ -341,7 +340,7 @@
                             <!-- 4 -->
                             <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
                                 <div class="dish-box text-center">
-                                    <div class="dist-img">
+                                    <div class="dish-img">
                                         <img src="img/dish/4.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -364,7 +363,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dist-bottom-row">
+                                    <div class="dish-bottom-row">
                                         <ul>
                                             <li>
                                                 <b>Rs. 379</b>
@@ -382,7 +381,7 @@
                             <!-- 5 -->
                             <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
                                 <div class="dish-box text-center">
-                                    <div class="dist-img">
+                                    <div class="dish-img">
                                         <img src="img/dish/5.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -405,7 +404,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dist-bottom-row">
+                                    <div class="dish-bottom-row">
                                         <ul>
                                             <li>
                                                 <b>Rs. 99</b>
@@ -422,7 +421,7 @@
                             <!-- 6 -->
                             <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
                                 <div class="dish-box text-center">
-                                    <div class="dist-img">
+                                    <div class="dish-img">
                                         <img src="img/dish/6.png" alt="">
                                     </div>
                                     <div class="dish-rating">
@@ -445,7 +444,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="dist-bottom-row">
+                                    <div class="dish-bottom-row">
                                         <ul>
                                             <li>
                                                 <b>Rs. 159</b>
@@ -564,30 +563,22 @@
                         <div class="col-lg-10 m-auto">
                             <div class="book-table-img-slider" id="icon">
                                 <div class="swiper-wrapper">
-                                    <a href="img/bt1.jpg" data-fancybox="table-slider"
-                                       class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt1.jpg)"></a>
-                                    <a href="img/bt2.jpg" data-fancybox="table-slider"
-                                       class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt2.jpg)"></a>
-                                    <a href="img/bt3.jpg" data-fancybox="table-slider"
-                                       class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt3.jpg)"></a>
-                                    <a href="img/bt4.jpg" data-fancybox="table-slider"
-                                       class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt4.jpg)"></a>
-                                    <a href="img/bt1.jpg" data-fancybox="table-slider"
-                                       class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt1.jpg)"></a>
-                                    <a href="img/bt2.jpg" data-fancybox="table-slider"
-                                       class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt2.jpg)"></a>
-                                    <a href="img/bt3.jpg" data-fancybox="table-slider"
-                                       class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt3.jpg)"></a>
-                                    <a href="img/bt4.jpg" data-fancybox="table-slider"
-                                       class="book-table-img back-img swiper-slide"
-                                       style="background-image: url(img/bt4.jpg)"></a>
+                                    <a href="img/bt1.jpg" id="bt1" data-fancybox="table-slider"
+                                       class="book-table-img back-img swiper-slide"></a>
+                                    <a href="img/bt2.jpg" id="bt2" data-fancybox="table-slider"
+                                       class="book-table-img back-img swiper-slide"></a>
+                                    <a href="img/bt3.jpg" id="bt3" data-fancybox="table-slider"
+                                       class="book-table-img back-img swiper-slide"></a>
+                                    <a href="img/bt4.jpg" id="bt4" data-fancybox="table-slider"
+                                       class="book-table-img back-img swiper-slide"></a>
+                                    <a href="img/bt1.jpg" id="bt1" data-fancybox="table-slider"
+                                       class="book-table-img back-img swiper-slide"></a>
+                                    <a href="img/bt2.jpg" id="bt2" data-fancybox="table-slider"
+                                       class="book-table-img back-img swiper-slide"></a>
+                                    <a href="img/bt3.jpg" id="bt3"data-fancybox="table-slider"
+                                       class="book-table-img back-img swiper-slide"></a>
+                                    <a href="img/bt4.jpg" id="bt4" data-fancybox="table-slider"
+                                       class="book-table-img back-img swiper-slide"></a>
                                 </div>
 
                                 <div class="swiper-button-wp">
@@ -627,7 +618,7 @@
                         <div class="swiper-wrapper">
                             <div class="col-lg-4 swiper-slide">
                                 <div class="team-box text-center">
-                                    <div style="background-image: url(img/chef/c1.jpg);"
+                                    <div id="chef1"
                                          class="team-img back-img">
 
                                     </div>
@@ -652,8 +643,8 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 swiper-slide">
-                                <div class="team-box text-center">
-                                    <div style="background-image: url(img/chef/c2.jpg);"
+                                <div class="team-box text-center" >
+                                    <div id="chef2"
                                          class="team-img back-img">
 
                                     </div>
@@ -678,8 +669,8 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 swiper-slide">
-                                <div class="team-box text-center">
-                                    <div style="background-image: url(img/chef/c3.jpg);"
+                                <div class="team-box text-center" >
+                                    <div id="chef3"
                                          class="team-img back-img">
 
                                     </div>
@@ -704,8 +695,8 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 swiper-slide">
-                                <div class="team-box text-center">
-                                    <div style="background-image: url(img/chef/c4.jpg);"
+                                <div class="team-box text-center" >
+                                    <div id="chef4"
                                          class="team-img back-img">
 
                                     </div>
@@ -730,8 +721,8 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 swiper-slide">
-                                <div class="team-box text-center">
-                                    <div style="background-image: url(img/chef/c5.jpg);"
+                                <div class="team-box text-center" >
+                                    <div id="chef5"
                                          class="team-img back-img">
 
                                     </div>
@@ -795,8 +786,7 @@
                                 <div class="col-sm-6">
                                     <div class="testimonials-box">
                                         <div class="testimonial-box-top">
-                                            <div class="testimonials-box-img back-img"
-                                                 style="background-image: url(img/testimonials/t1.jpg);">
+                                            <div class="testimonials-box-img back-img" id="tes1">
                                             </div>
                                             <div class="star-rating-wp">
                                                 <div class="star-rating">
@@ -817,8 +807,7 @@
                                 <div class="col-sm-6">
                                     <div class="testimonials-box">
                                         <div class="testimonial-box-top">
-                                            <div class="testimonials-box-img back-img"
-                                                 style="background-image: url(img/testimonials/t2.jpg);">
+                                            <div class="testimonials-box-img back-img" id="tes2">
                                             </div>
                                             <div class="star-rating-wp">
                                                 <div class="star-rating">
@@ -839,8 +828,7 @@
                                 <div class="col-sm-6">
                                     <div class="testimonials-box">
                                         <div class="testimonial-box-top">
-                                            <div class="testimonials-box-img back-img"
-                                                 style="background-image: url(img/testimonials/t3.jpg);">
+                                            <div class="testimonials-box-img back-img" id="tes3">
                                             </div>
                                             <div class="star-rating-wp">
                                                 <div class="star-rating">
@@ -861,8 +849,7 @@
                                 <div class="col-sm-6">
                                     <div class="testimonials-box">
                                         <div class="testimonial-box-top">
-                                            <div class="testimonials-box-img back-img"
-                                                 style="background-image: url(img/testimonials/t4.jpg);">
+                                            <div class="testimonials-box-img back-img" id="tes4">
                                             </div>
                                             <div class="star-rating-wp">
                                                 <div class="star-rating">
@@ -887,7 +874,7 @@
             </div>
         </section>
 
-        <section class="faq-sec section-repeat-img" style="background-image: url(img/faq-bg.png);">
+        <section class="faq-sec section-repeat-img" id="faq">
             <div class="sec-wp">
                 <div class="container">
                     <div class="row">
@@ -943,8 +930,7 @@
         </section>
 
 
-        <div class="bg-pattern bg-light repeat-img"
-             style="background-image: url(img/blog-pattern-bg.png);">
+        <div class="bg-pattern bg-light repeat-img">
             <section class="blog-sec section" id="blog">
                 <div class="sec-wp">
                     <div class="container">
@@ -952,7 +938,7 @@
                             <div class="col-lg-12">
                                 <div class="sec-title text-center mb-5">
                                     <p class="sec-sub-title mb-3">Our blog</p>
-                                    <h2 class="h2-title">Latest Publications</span></h2>
+                                    <h2 class="h2-title">Latest Publications</h2>
                                     <div class="sec-title-shape mb-4">
                                         <img src="img/title-shape.svg" alt="">
                                     </div>
@@ -962,8 +948,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="blog-box">
-                                    <div class="blog-img back-img"
-                                         style="background-image: url(img/blog/blog1.jpg);"></div>
+                                    <div class="blog-img back-img" id="blog1"></div>
                                     <div class="blog-text">
                                         <p class="blog-date">September.15.2021</p>
                                         <a href="#" class="h4-title">Energy Drink which you can make at home.</a>
@@ -976,8 +961,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="blog-box">
-                                    <div class="blog-img back-img"
-                                         style="background-image: url(img/blog/blog2.jpg);"></div>
+                                    <div class="blog-img back-img" id="blog2"></div>
                                     <div class="blog-text">
                                         <p class="blog-date">October.15.2021</p>
                                         <a href="#" class="h4-title">Fresh Veggie and rice combo for dinner.</a>
@@ -990,8 +974,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="blog-box">
-                                    <div class="blog-img back-img"
-                                         style="background-image: url(img/blog/blog3.jpg);"></div>
+                                    <div class="blog-img back-img" id="blog3"></div>
                                     <div class="blog-text">
                                         <p class="blog-date">November.15.2021</p>
                                         <a href="#" class="h4-title">Chicken burger with double nuggets</a>
@@ -1012,8 +995,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 m-auto">
-                                <div class="newsletter-box text-center back-img white-text"
-                                     style="background-image: url(img/news.jpg);">
+                                <div class="newsletter-box text-center back-img white-text" id="news">
                                     <div class="bg-overlay dark-overlay"></div>
                                     <div class="sec-wp">
                                         <div class="newsletter-box-text">
@@ -1045,7 +1027,7 @@
                                 <div class="footer-info">
                                     <div class="footer-logo">
                                         <a href="index.html">
-                                            <img src="logo.png" alt="">
+                                            <img src="img/logo.png" alt="">
                                         </a>
                                     </div>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, tenetur.

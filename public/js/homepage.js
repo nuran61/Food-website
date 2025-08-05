@@ -28,6 +28,7 @@ $(document).ready(function ($) {
             el: ".swiper-pagination",
             clickable: true,
         },
+
     });
 
     var team_slider = new Swiper(".team-slider", {
