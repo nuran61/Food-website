@@ -2,6 +2,32 @@ $(document).ready(function ($) {
     "use strict";
 
 
+    const cartButton = document.getElementById('cart-button');
+    const shoppingCart = document.querySelector('.shopping-cart');
+
+    cartButton.addEventListener('click', () => {
+        shoppingCart.classList.toggle('active');
+    });
+
+    document.querySelectorAll('.increment').forEach(button => {
+        button.addEventListener('click', () => {
+            const quantityEl = button.previousElementSibling;
+            let quantity = parseInt(quantityEl.textContent);
+            quantityEl.textContent = quantity + 1;
+        });
+    });
+
+    document.querySelectorAll('.decrement').forEach(button => {
+        button.addEventListener('click', () => {
+            const quantityEl = button.nextElementSibling;
+            let quantity = parseInt(quantityEl.textContent);
+            if (quantity > 1) {
+                quantityEl.textContent = quantity - 1;
+            }
+        });
+    });
+
+
     var book_table = new Swiper(".book-table-img-slider", {
         slidesPerView: 1,
         spaceBetween: 20,
@@ -21,8 +47,8 @@ $(document).ready(function ($) {
         },
         loopAdditionalAlides: true,
         navigation: {
-            nextE1: ".swiper-button-next",
-            prevE1: "swiper-button-prev",
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
         pagination: {
             el: ".swiper-pagination",
@@ -42,8 +68,8 @@ $(document).ready(function ($) {
         speed: 2000,
 
         navigation: {
-            nextE1: ".swiper-button-next",
-            prevE1: "swiper-button-prev",
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
         pagination: {
             el: ".swiper-pagination",

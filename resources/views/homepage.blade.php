@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- for custom css -->
     <link rel="stylesheet" href="{{asset('style/css/homepage.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
 
 </head>
 
@@ -49,10 +51,90 @@
                                 <i class="uil uil-search"></i>
                             </button>
                         </form>
-                        <a href="javascript:void(0)" class="header-btn header-cart">
+
+
+                        <a href="javascript:void(0)" class="header-btn header-cart" id="cart-button">
                             <i class="uil uil-shopping-bag"></i>
                             <span class="cart-number">3</span>
                         </a>
+
+                        <div class="shopping-cart">
+                            <div class="cart-items-scroll">
+                                <div class="box">
+                                    <i class="fa fa-trash"></i>
+                                    <img src="img/dish/1.png">
+                                    <div class="content content_width">
+                                        <h3>Fresh Chicken Veggies</h3>
+
+                                        <div class="quantity-price">
+                                            <div class="quantity-controls">
+                                                <button class="decrement">-</button>
+                                                <span class="quantity">1</span>
+                                                <button class="increment">+</button>
+                                            </div>
+                                            <span class="price">Rs. 499</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box">
+                                    <i class="fa fa-trash"></i>
+                                    <img src="img/dish/2.png">
+                                    <div class="content content_width">
+                                        <h3>Grilled Chicken</h3>
+
+                                        <div class="quantity-price">
+                                            <div class="quantity-controls">
+                                                <button class="decrement">-</button>
+                                                <span class="quantity">1</span>
+                                                <button class="increment">+</button>
+                                            </div>
+                                            <span class="price">Rs. 499</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box">
+                                    <i class="fa fa-trash"></i>
+                                    <img src="img/dish/3.png">
+                                    <div class="content content_width">
+                                        <h3>Panner Noodles</h3>
+
+                                        <div class="quantity-price">
+                                            <div class="quantity-controls">
+                                                <button class="decrement">-</button>
+                                                <span class="quantity">1</span>
+                                                <button class="increment">+</button>
+                                            </div>
+                                            <span class="price">Rs. 499</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <i class="fa fa-trash"></i>
+                                    <img src="img/dish/4.png">
+                                    <div class="content content_width">
+                                        <h3>Chicken Noodles</h3>
+
+                                        <div class="quantity-price">
+                                            <div class="quantity-controls">
+                                                <button class="decrement">-</button>
+                                                <span class="quantity">1</span>
+                                                <button class="increment">+</button>
+                                            </div>
+                                            <span class="price">Rs. 499</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="total"> Total : Rs. 1497 </div>
+                            <a href="#" class="btn">Checkout</a>
+
+                        </div>
+
+
                         <a href="javascript:void(0)" class="header-btn">
                             <i class="uil uil-user-md"></i>
                         </a>
@@ -161,7 +243,9 @@
                             <div class="about-video-img">
                             </div>
                             <div class="play-btn-wp">
-                                <a href="img/video.mp4" data-fancybox="video" class="play-btn">
+                                <a href="img/video.mp4" data-fancybox="video"  data-fancybox="video"
+                                   data-small-btn="true"
+                                   data-toolbar="false" class="play-btn">
                                     <i class="uil uil-play"></i>
 
                                 </a>
