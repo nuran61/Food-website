@@ -36,21 +36,15 @@
                     <button class="menu-toggle"><span></span><span></span></button>
                     <nav class="header-menu">
                         <ul class="menu food-nav-menu">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#menu">Menu</a></li>
-                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#home">Anasayfa</a></li>
+                            <li><a href="#about">Hakkımızda</a></li>
+                            <li><a href="#menu">Menü</a></li>
+                            <li><a href="#gallery">Galeri</a></li>
                             <li><a href="#blog">Blog</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#contact">İletişim</a></li>
                         </ul>
                     </nav>
-                    <div class="header-right">
-                        <form action="#" class="header-search-form for-des">
-                            <input type="search" class="form-input" placeholder="Search Here...">
-                            <button type="submit">
-                                <i class="uil uil-search"></i>
-                            </button>
-                        </form>
+
 
 
                         <a href="javascript:void(0)" class="header-btn header-cart" id="cart-button">
@@ -64,7 +58,7 @@
                                     <i class="fa fa-trash"></i>
                                     <img src="img/dish/1.png">
                                     <div class="content content_width">
-                                        <h3>Fresh Chicken Veggies</h3>
+                                        <h3>Sebzeli Tavuk</h3>
 
                                         <div class="quantity-price">
                                             <div class="quantity-controls">
@@ -81,7 +75,7 @@
                                     <i class="fa fa-trash"></i>
                                     <img src="img/dish/2.png">
                                     <div class="content content_width">
-                                        <h3>Grilled Chicken</h3>
+                                        <h3>Izgara Tavuk</h3>
 
                                         <div class="quantity-price">
                                             <div class="quantity-controls">
@@ -89,7 +83,7 @@
                                                 <span class="quantity">1</span>
                                                 <button class="increment">+</button>
                                             </div>
-                                            <span class="price">Rs. 499</span>
+                                            <span class="price">Rs. 359</span>
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +92,7 @@
                                     <i class="fa fa-trash"></i>
                                     <img src="img/dish/3.png">
                                     <div class="content content_width">
-                                        <h3>Panner Noodles</h3>
+                                        <h3>Panner Peynirli Makarna</h3>
 
                                         <div class="quantity-price">
                                             <div class="quantity-controls">
@@ -106,7 +100,7 @@
                                                 <span class="quantity">1</span>
                                                 <button class="increment">+</button>
                                             </div>
-                                            <span class="price">Rs. 499</span>
+                                            <span class="price">Rs. 149</span>
                                         </div>
                                     </div>
                                 </div>
@@ -114,7 +108,7 @@
                                     <i class="fa fa-trash"></i>
                                     <img src="img/dish/4.png">
                                     <div class="content content_width">
-                                        <h3>Chicken Noodles</h3>
+                                        <h3>Tavuklu Noodle</h3>
 
                                         <div class="quantity-price">
                                             <div class="quantity-controls">
@@ -122,7 +116,7 @@
                                                 <span class="quantity">1</span>
                                                 <button class="increment">+</button>
                                             </div>
-                                            <span class="price">Rs. 499</span>
+                                            <span class="price">Rs. 379</span>
                                         </div>
                                     </div>
                                 </div>
@@ -163,14 +157,14 @@
                         <div class="col-lg-6">
                             <div class="banner-text">
                                 <h1 class="h1-title">
-                                    Welcome to our
-                                    <span>India</span>
-                                    restaurant.
+                                    <span>İtalyan</span>
+                                    Restoranımıza Hoş Geldiniz.
                                 </h1>
-                                <p>This is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eius
-                                    vel tempore consectetur nesciunt? Nam eius tenetur recusandae optio aperiam.</p>
+                                <p>“Ciao! Mutfağımızda Napoli’nin sıcacık pizzaları, Roma’nın taze makarnaları ve Toskana’nın eşsiz tatları sizi bekliyor.
+                                    Her lokmada İtalya’yı hissedin, sofranıza Akdeniz’in sıcaklığını taşıyın.
+                                    Mangia bene, vivi felice!”</p>
                                 <div class="banner-btn mt-4">
-                                    <a href="#menu" class="sec-btn">Check our Menu</a>
+                                    <a href="#menu" class="sec-btn">Menü</a>
                                 </div>
                             </div>
                         </div>
@@ -180,8 +174,8 @@
                                 </div>
                             </div>
                             <div class="banner-img-text mt-4 m-auto">
-                                <h5 class="h5-title">Sushi</h5>
-                                <p>this is Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h5 class="h5-title">Geleneksel Tarifler, Modern Sunum</h5>
+                                <p>"Geleneksel İtalyan lezzetlerinin büyüsüne kapılın"</p>
                             </div>
                         </div>
                     </div>
@@ -195,7 +189,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="brand-title mb-5">
-                            <h5 class="h5-title">Trusted by 70+ companies</h5>
+                            <h5 class="h5-title">70'ten fazla kurumsal firma bizimle çalışmayı tercih ediyor</h5>
                         </div>
                         <div class="brands-row">
                             <div class="brands-box">
@@ -224,16 +218,16 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="sec-title text-center mb-5">
-                            <p class="sec-sub-title mb-3">About Us</p>
-                            <h2 class="h2-title">Discover our <span>restaurant story</span></h2>
+                            <p class="sec-sub-title mb-3">Hakkımızda</p>
+                            <h2 class="h2-title">Restoranımızın hikayesini<span>keşfedin</span></h2>
                             <div class="sec-title-shape mb-4">
                                 <img src="img/title-shape.svg" alt="">
                             </div>
-                            <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore at
-                                aspernatur eveniet temporibus placeat voluptatum quaerat accusamus possimus
-                                cupiditate, quidem impedit sed libero id perspiciatis esse earum repellat quam.
-                                Dolore modi temporibus quae possimus accusantium, cum corrupti sed deserunt iusto at
-                                sapiente nihil sint iste similique soluta dolor! Quod.</p>
+                            <p>
+                                "Deneyimli şef kadromuz ve profesyonel hizmet anlayışımızla, hem bireysel
+                                misafirlerimize hem de kurumsal müşterilerimize İtalyan mutfağının en seçkin
+                                lezzetlerini sunuyoruz. Kalite, lezzet ve mükemmel hizmet triomuzla sektörde
+                                fark yaratıyoruz."</p>
                         </div>
                     </div>
                 </div>
@@ -249,7 +243,7 @@
                                     <i class="uil uil-play"></i>
 
                                 </a>
-                                <span>Watch The Recipe</span>
+                                <span>Tarifi İzle</span>
                             </div>
                         </div>
                     </div>
@@ -263,8 +257,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="sec-title text-center mb-5">
-                                <p class="sec-sub-title mb-3">our menu</p>
-                                <h2 class="h2-title">wake up early, <span>eat fresh & healthy</span></h2>
+                                <p class="sec-sub-title mb-3">Menü</p>
+                                <h2 class="h2-title">Erken kalk, <span>taze & sağlıklı beslen</span></h2>
                                 <div class="sec-title-shape mb-4">
                                     <img src="img/title-shape.svg" alt="">
                                 </div>
@@ -310,7 +304,7 @@
                                         <i class="uil uil-star"></i>
                                     </div>
                                     <div class="dish-title">
-                                        <h3 class="h3-title">Fresh Chicken Veggies</h3>
+                                        <h3 class="h3-title">Sebzeli Tavuk</h3>
                                         <p>120 calories</p>
                                     </div>
                                     <div class="dish-info">
@@ -351,7 +345,7 @@
                                         <i class="uil uil-star"></i>
                                     </div>
                                     <div class="dish-title">
-                                        <h3 class="h3-title">Grilled Chicken</h3>
+                                        <h3 class="h3-title">Izgara Tavuk</h3>
                                         <p>80 calories</p>
                                     </div>
                                     <div class="dish-info">
@@ -391,7 +385,7 @@
                                         <i class="uil uil-star"></i>
                                     </div>
                                     <div class="dish-title">
-                                        <h3 class="h3-title">Panner Noodles</h3>
+                                        <h3 class="h3-title">Panner Peynirli Makarna</h3>
                                         <p>100 calories</p>
                                     </div>
                                     <div class="dish-info">
@@ -432,7 +426,7 @@
                                         <i class="uil uil-star"></i>
                                     </div>
                                     <div class="dish-title">
-                                        <h3 class="h3-title">Chicken Noodles</h3>
+                                        <h3 class="h3-title">Tavuklu Noodle</h3>
                                         <p>120 calories</p>
                                     </div>
                                     <div class="dish-info">
@@ -473,14 +467,14 @@
                                         <i class="uil uil-star"></i>
                                     </div>
                                     <div class="dish-title">
-                                        <h3 class="h3-title">Bread Boiled Egg</h3>
+                                        <h3 class="h3-title">Ekmekli Haşlanmış Yumurta</h3>
                                         <p>120 calories</p>
                                     </div>
                                     <div class="dish-info">
                                         <ul>
                                             <li>
                                                 <p>Type</p>
-                                                <b>Non Veg</b>
+                                                <b>Veg</b>
                                             </li>
                                             <li>
                                                 <p>Persons</p>
@@ -502,6 +496,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <!-- 6 -->
                             <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
                                 <div class="dish-box text-center">
@@ -513,8 +508,131 @@
                                         <i class="uil uil-star"></i>
                                     </div>
                                     <div class="dish-title">
-                                        <h3 class="h3-title">Immunity Dish</h3>
+                                        <h3 class="h3-title">İmmünite Tabağı</h3>
                                         <p>120 calories</p>
+                                    </div>
+                                    <div class="dish-info">
+                                        <ul>
+                                            <li>
+                                                <p>Type</p>
+                                                <b>Non Veg</b>
+                                            </li>
+                                            <li>
+                                                <p>Persons</p>
+                                                <b>2</b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dish-bottom-row">
+                                        <ul>
+                                            <li>
+                                                <b>Rs. 159</b>
+                                            </li>
+                                            <li>
+                                                <button class="dish-add-btn">
+                                                    <i class="uil uil-plus"></i>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <! -- 7 -->
+                            <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
+                                <div class="dish-box text-center">
+                                    <div class="dish-img">
+                                        <img src="img/dish/7.png" alt="">
+                                    </div>
+                                    <div class="dish-rating">
+                                        5
+                                        <i class="uil uil-star"></i>
+                                    </div>
+                                    <div class="dish-title">
+                                        <h3 class="h3-title">Sucucklu Pizza</h3>
+                                        <p>120 calories</p>
+                                    </div>
+                                    <div class="dish-info">
+                                        <ul>
+                                            <li>
+                                                <p>Type</p>
+                                                <b>Non veg</b>
+                                            </li>
+                                            <li>
+                                                <p>Persons</p>
+                                                <b>2</b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dish-bottom-row">
+                                        <ul>
+                                            <li>
+                                                <b>Rs. 99</b>
+                                            </li>
+                                            <li>
+                                                <button class="dish-add-btn">
+                                                    <i class="uil uil-plus"></i>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 8 -->
+                            <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
+                                <div class="dish-box text-center">
+                                    <div class="dish-img">
+                                        <img src="img/dish/8.png" alt="">
+                                    </div>
+                                    <div class="dish-rating">
+                                        5
+                                        <i class="uil uil-star"></i>
+                                    </div>
+                                    <div class="dish-title">
+                                        <h3 class="h3-title">Veg pizza</h3>
+                                        <p>120 calories</p>
+                                    </div>
+                                    <div class="dish-info">
+                                        <ul>
+                                            <li>
+                                                <p>Type</p>
+                                                <b>veg</b>
+                                            </li>
+                                            <li>
+                                                <p>Persons</p>
+                                                <b>2</b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dish-bottom-row">
+                                        <ul>
+                                            <li>
+                                                <b>Rs. 99</b>
+                                            </li>
+                                            <li>
+                                                <button class="dish-add-btn">
+                                                    <i class="uil uil-plus"></i>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 9 -->
+                            <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
+                                <div class="dish-box text-center">
+                                    <div class="dish-img">
+                                        <img src="img/dish/9.png" alt="">
+                                    </div>
+                                    <div class="dish-rating">
+                                        4
+                                        <i class="uil uil-star"></i>
+                                    </div>
+                                    <div class="dish-title">
+                                        <h3 class="h3-title">Makarna</h3>
+                                        <p>100 calories</p>
                                     </div>
                                     <div class="dish-info">
                                         <ul>
@@ -531,7 +649,7 @@
                                     <div class="dish-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>Rs. 159</b>
+                                                <b>Rs. 149</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -558,14 +676,13 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="sec-text">
-                            <h2 class="xxl-title">Chicken Pepperoni</h2>
-                            <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores
-                                eligendi earum eveniet soluta officiis asperiores repellat, eum praesentium nihil
-                                totam. Non ipsa expedita repellat atque mollitia praesentium assumenda quo
-                                distinctio excepturi nobis tenetur, cum ab vitae fugiat hic aspernatur? Quos
-                                laboriosam, repudiandae exercitationem atque a excepturi vel. Voluptas, ipsa.</p>
-                            <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit laborum
-                                voluptas magnam sed ad illum? Minus officiis quod deserunt.</p>
+                            <h2 class="xxl-title">Pizza</h2>
+                            <p>El yapımı hamurumuz 24 saat dinlendirildikten sonra, İtalya'dan getirttiğimiz
+                                San Marzano domatesleri ve taze mozzarella ile buluşuyor. Odun ateşinde pişirilen
+                                pizzalarımız, geleneksel Napoli usulünün sırrını çağdaş lezzet anlayışımızla harmanlıyor.
+                                Her dilimde İtalya'nın otantik tadını yaşarken, özenle seçilmiş taze malzemelerimizin
+                                zenginliğini keşfedeceksiniz. Ailemizin nesillerce koruduğu tariflerle hazırlanan bu pizza,
+                                hem nostaljik hem de yenilikçi dokunuşlarıyla masanızda İtalyan aile sıcaklığını hissettiriyor.</p>
 
                         </div>
                     </div>
@@ -578,19 +695,19 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 order-lg-1 order-2">
                         <div class="sec-text">
-                            <h2 class="xxl-title">Sushi</h2>
-                            <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores
-                                eligendi earum eveniet soluta officiis asperiores repellat, eum praesentium nihil
-                                totam. Non ipsa expedita repellat atque mollitia praesentium assumenda quo
-                                distinctio excepturi nobis tenetur, cum ab vitae fugiat hic aspernatur? Quos
-                                laboriosam, repudiandae exercitationem atque a excepturi vel. Voluptas, ipsa.</p>
-                            <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit laborum
-                                voluptas magnam sed ad illum? Minus officiis quod deserunt.</p>
+                            <h2 class="xxl-title">Makarna</h2>
+                            <p>İtalyan mutfağının kalbi olan makarnalarımız, geleneksel el yapımı teknikleri ve çağdaş
+                                lezzet anlayışının mükemmel buluşmasıyla masanızda. Durum buğdayının en kaliteli çeşitlerinden
+                                üretilen taze makarnalarımız, her gün şef mutfağımızda özenle hazırlanıyor ve sadece taze malzemelerle buluşuyor.
+                                İtalya'nın farklı bölgelerinden gelen otantik tariflerin sırrını, ailelerin nesillerce
+                                koruduğu geleneksel yöntemlerle yeniden hayata geçiriyoruz. Taze domates sosundan kremalı
+                                alfredo'ya, bazilikli pesto'dan zengin carbonara'ya kadar her sos, makarnalarımızla perfect
+                                uyumu yakalamak için özel olarak hazırlanıyor.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 order-lg-2 order-1">
                         <div class="sec-img">
-                            <img src="img/sushi.png" alt="">
+                            <img src="img/pasta.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -611,8 +728,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="sec-title text-center mb-5">
-                                <p class="sec-sub-title mb-3">Book Table</p>
-                                <h2 class="h2-title">Opening Table</h2>
+                                <p class="sec-sub-title mb-3">Rezervasyon</p>
+                                <h2 class="h2-title">Hizmet Saatleri</h2>
                                 <div class="sec-title-shape mb-4">
                                     <img src="img/title-shape.svg" alt="">
                                 </div>
@@ -624,8 +741,8 @@
                         <div class="row align-items-center">
                             <div class="col-lg-4">
                                 <div class="table-title text-center">
-                                    <h3>Monday to Thursday</h3>
-                                    <p>9:00 am - 22:00 pm</p>
+                                    <h3>Pazartesi - Perşembe</h3>
+                                    <p>9:00 - 22:00</p>
                                 </div>
                             </div>
                             <div class="col-lg-4">
@@ -636,8 +753,8 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="table-title text-center">
-                                    <h3>Friday to Sunday</h3>
-                                    <p>11::00 am to 20:00 pm</p>
+                                    <h3>Cuma - Pazar</h3>
+                                    <p>11:00 - 20:00</p>
                                 </div>
                             </div>
                         </div>
@@ -690,8 +807,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="sec-title text-center mb-5">
-                                <p class="sec-sub-title mb-3">Our Team</p>
-                                <h2 class="h2-title">Meet our Chefs</h2>
+                                <p class="sec-sub-title mb-3">Ekibimiz</p>
+                                <h2 class="h2-title">Şeflerimizle Tanışın</h2>
                                 <div class="sec-title-shape mb-4">
                                     <img src="img/title-shape.svg" alt="">
                                 </div>
@@ -706,7 +823,7 @@
                                          class="team-img back-img">
 
                                     </div>
-                                    <h3 class="h3-title">Nilay Hirpara</h3>
+                                    <h3 class="h3-title">Lorenzo Rossi</h3>
                                     <div class="social-icon">
                                         <ul>
                                             <li>
@@ -732,7 +849,7 @@
                                          class="team-img back-img">
 
                                     </div>
-                                    <h3 class="h3-title">Ravi Kumawat</h3>
+                                    <h3 class="h3-title">Davide Marino</h3>
                                     <div class="social-icon">
                                         <ul>
                                             <li>
@@ -758,7 +875,7 @@
                                          class="team-img back-img">
 
                                     </div>
-                                    <h3 class="h3-title">Navnit Kumar</h3>
+                                    <h3 class="h3-title">Luca Esposito</h3>
                                     <div class="social-icon">
                                         <ul>
                                             <li>
@@ -784,7 +901,7 @@
                                          class="team-img back-img">
 
                                     </div>
-                                    <h3 class="h3-title">Pranav Badgal</h3>
+                                    <h3 class="h3-title">Matteo Romano</h3>
                                     <div class="social-icon">
                                         <ul>
                                             <li>
@@ -810,7 +927,7 @@
                                          class="team-img back-img">
 
                                     </div>
-                                    <h3 class="h3-title">Priyotosh Dey</h3>
+                                    <h3 class="h3-title">Alessandro Ferrari</h3>
                                     <div class="social-icon">
                                         <ul>
                                             <li>
@@ -851,8 +968,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="sec-title text-center mb-5">
-                                <p class="sec-sub-title mb-3">What they say</p>
-                                <h2 class="h2-title">What our customers <span>say about us</span></h2>
+                                <p class="sec-sub-title mb-3">Yorumlar</p>
+                                <h2 class="h2-title">Müşterilerimiz <span>Bizim İçin Neler Söylüyor</span></h2>
                                 <div class="sec-title-shape mb-4">
                                     <img src="img/title-shape.svg" alt="">
                                 </div>
@@ -881,10 +998,9 @@
                                         </div>
                                         <div class="testimonials-box-text">
                                             <h3 class="h3-title">
-                                                Nilay Hirpara
+                                                Hamza Baran
                                             </h3>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-                                                quisquam.</p>
+                                            <p>Gerçekten harika bir İtalyan restoranı! Carbonara makarnası İtalya'da yediğim kadar lezzetliydi. Personel çok ilgili, ambiyans mükemmel. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -902,10 +1018,9 @@
                                         </div>
                                         <div class="testimonials-box-text">
                                             <h3 class="h3-title">
-                                                Ravi Kumawat
+                                                Emre Demir
                                             </h3>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-                                                quisquam.</p>
+                                            <p>İş toplantısı için gitmiştik, hem yemekler hem hizmet mükemmeldi. Sunum çok özenli, tatlar otantik. Özellikle risotto favorim oldu.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -923,10 +1038,9 @@
                                         </div>
                                         <div class="testimonials-box-text">
                                             <h3 class="h3-title">
-                                                Navnit Kumar
+                                                Ahmet Yılmaz
                                             </h3>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-                                                quisquam.</p>
+                                            <p>Romantik bir akşam yemeği için gitmiştik eşimle. Mum ışığında harika bir atmosfer. Garsonlar çok profesyonel ve güleryüzlü.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -944,10 +1058,9 @@
                                         </div>
                                         <div class="testimonials-box-text">
                                             <h3 class="h3-title">
-                                                Somyadeep Bhowmik
+                                                Furkan Ergenç
                                             </h3>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-                                                quisquam.</p>
+                                            <p>Pizza hamuru gerçekten el yapımı olduğu belli oluyor. Malzemeler taze ve kaliteli. Özellikle tiramisu'yu denemenizi öneririm - muhteşem! Fiyatları da oldukça makul.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -964,8 +1077,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="sec-title text-center mb-5">
-                                <p class="sec-sub-title mb-3">faqs</p>
-                                <h2 class="h2-title">Frequently <span>asked questions</span></h2>
+                                <p class="sec-sub-title mb-3">Sık Sorulanlar</p>
+                                <h2 class="h2-title">Sık Sorulan<span>Sorular</span></h2>
                                 <div class="sec-title-shape mb-4">
                                     <img src="img/title-shape.svg" alt="">
                                 </div>
@@ -975,36 +1088,41 @@
 
                     <div class="faq-row">
                         <div class="faq-box">
-                            <h4 class="h4-title">What are the login hours?</h4>
-                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
-                                vitae fugit laboriosam dolor distinctio.</p>
+                            <h4 class="h4-title">Çalışma saatleriniz nedir?</h4>
+                            <p>Restoranımız hafta içi 11:00-23:00, hafta sonu ise 10:00-00:00 saatleri arasında hizmet
+                                vermektedir. Özel günlerde ve tatillerde çalışma saatlerimizde değişiklik olabilir,
+                                bu durumda sosyal medya hesaplarımızdan duyuru yaparız. Son sipariş saatimiz kapanıştan 1 saat öncedir.</p>
                         </div>
                         <div class="faq-box">
-                            <h4 class="h4-title">What do i get my refund?</h4>
-                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
-                                vitae fugit laboriosam dolor distinctio. Lorem ipsum dolor sit amet.</p>
+                            <h4 class="h4-title">İade işlemlerini nasıl yapabilirim</h4>
+                            <p>Siparişinizde herhangi bir sorun yaşamanız durumunda, sipariş tarihinden itibaren 24
+                                saat içinde müşteri hizmetlerimizle iletişime geçebilirsiniz. İade talebiniz değerlendirildikten
+                                sonra, onaylanması halinde 3-5 iş günü içinde ödeme yönteminize geri ödeme yapılır. Kart ödemeleri
+                                için bankacılık işlemleri 7-10 gün sürebilir.</p>
                         </div>
                         <div class="faq-box">
-                            <h4 class="h4-title">How long it will take food to arrive?</h4>
-                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
-                                vitae fugit laboriosam dolor distinctio.</p>
+                            <h4 class="h4-title">Yemek siparişim ne kadar sürede gelir?</h4>
+                            <p>Normal mesai saatlerinde siparişleriniz ortalama 25-45 dakika içinde adresinize teslim edilir.
+                                Yoğun saatlerde (akşam 19:00-21:30) teslimat süresi 60 dakikaya kadar uzayabilir. Hava koşulları
+                                ve trafik durumu teslimat süresini etkileyebilir, böyle durumlarda sizi bilgilendiririz.</p>
                         </div>
                         <div class="faq-box">
-                            <h4 class="h4-title">Does your restaurant has both veg and non veg?</h4>
-                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
-                                vitae fugit laboriosam dolor distinctio. Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Voluptates, distinctio?</p>
+                            <h4 class="h4-title">Restoranınızda hem vejeteryan hem et yemekleri var mı?</h4>
+                            <p>Evet, menümüzde hem vejeteryan hem vegan hem de et seçenekleri bulunmaktadır. Tüm vejeteryan
+                                yemeklerimiz "V" işareti ile, vegan seçeneklerimiz "VGN" işareti ile belirtilmiştir. Ayrıca gluten-free
+                                seçeneklerimiz de mevcuttur ve özel beslenme gereksinimleriniz için mutfağımızla koordine edebiliriz.</p>
                         </div>
                         <div class="faq-box">
-                            <h4 class="h4-title">What is cost of food delivery?</h4>
-                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
-                                vitae fugit laboriosam dolor distinctio. Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Nam officiis ducimus, cum enim repudiandae animi.</p>
+                            <h4 class="h4-title">Yemek teslimat ücreti ne kadar?</h4>
+                            <p>5 km yarıçapındaki bölgelere teslimat ücreti 15₺'dir. 100₺ ve üzeri siparişlerde teslimat ücretsizdir.
+                                Bazı uzak bölgeler için ek teslimat ücreti uygulanabilir, sipariş sırasında net tutarı görebilirsiniz.
+                                Özel günlerde kampanyalarımız ile teslimat ücreti farklılık gösterebilir.</p>
                         </div>
                         <div class="faq-box">
-                            <h4 class="h4-title">Who is eligible for pro membership?</h4>
-                            <p>It is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum
-                                vitae fugit laboriosam dolor distinctio. </p>
+                            <h4 class="h4-title">Pro üyelik kimler için uygun?</h4>
+                            <p>Ayda 3'ten fazla sipariş veren müşterilerimiz için Pro üyelik avantajlıdır. Pro üyelerimize özel %15 indirim,
+                                ücretsiz teslimat, öncelikli sipariş hazırlama ve özel menü erişimi sunuyoruz. Üyelik aylık 29₺ olup, düzenli
+                                müşterilerimiz için çok avantajlı bir seçenektir.</p>
                         </div>
                     </div>
 
@@ -1021,8 +1139,8 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="sec-title text-center mb-5">
-                                    <p class="sec-sub-title mb-3">Our blog</p>
-                                    <h2 class="h2-title">Latest Publications</h2>
+                                    <p class="sec-sub-title mb-3">blog</p>
+                                    <h2 class="h2-title">En Son Yayınlar</h2>
                                     <div class="sec-title-shape mb-4">
                                         <img src="img/title-shape.svg" alt="">
                                     </div>
@@ -1034,12 +1152,13 @@
                                 <div class="blog-box">
                                     <div class="blog-img back-img" id="blog1"></div>
                                     <div class="blog-text">
-                                        <p class="blog-date">September.15.2021</p>
-                                        <a href="#" class="h4-title">Energy Drink which you can make at home.</a>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
-                                            explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
-                                            blanditiis amet ad.</p>
-                                        <a href="#" class="sec-btn">Read More</a>
+                                        <p class="blog-date">15 Eylül 2025</p>
+                                        <a href="#" class="h4-title">Evde yapabileceğiniz enerji içeceği</a>
+                                        <p>Doğal malzemelerle hazırlayabileceğiniz bu enerji içeceği, gün
+                                            boyu enerjinizi yüksek tutmanıza yardımcı olur. Taze meyveler,
+                                            baharatlar ve doğal tatlandırıcılarla hazırlanan bu tarifle hem
+                                            sağlıklı hem de lezzetli bir içecek elde edebilirsiniz.</p>
+                                        <a href="#" class="sec-btn">Devamını Oku</a>
                                     </div>
                                 </div>
                             </div>
@@ -1047,12 +1166,13 @@
                                 <div class="blog-box">
                                     <div class="blog-img back-img" id="blog2"></div>
                                     <div class="blog-text">
-                                        <p class="blog-date">October.15.2021</p>
-                                        <a href="#" class="h4-title">Fresh Veggie and rice combo for dinner.</a>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
-                                            explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
-                                            blanditiis amet ad.</p>
-                                        <a href="#" class="sec-btn">Read More</a>
+                                        <p class="blog-date">15 Ekim 2025</p>
+                                        <a href="#" class="h4-title">Akşam Yemeği İçin Shakshuka</a>
+                                        <p>Akdeniz mutfağının en sevilen lezzetlerinden biri olan bu shakshuka tarifi,
+                                            hem göze hitap eden sunumu hem de doyurucu lezzetiyle sofranızın vazgeçilmezi
+                                            olacak. Taze domateslerden hazırlanan zengin sos içinde pişirilen yumurtalar,
+                                            baharatların aromasıyla birleşerek muhteşem bir tat deneyimi yaşatır.</p>
+                                        <a href="#" class="sec-btn">Devamını Oku</a>
                                     </div>
                                 </div>
                             </div>
@@ -1060,12 +1180,13 @@
                                 <div class="blog-box">
                                     <div class="blog-img back-img" id="blog3"></div>
                                     <div class="blog-text">
-                                        <p class="blog-date">November.15.2021</p>
-                                        <a href="#" class="h4-title">Chicken burger with double nuggets</a>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
-                                            explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
-                                            blanditiis amet ad.</p>
-                                        <a href="#" class="sec-btn">Read More</a>
+                                        <p class="blog-date">15 Kasım 2025</p>
+                                        <a href="#" class="h4-title">Çift nuggetlı tavuk burger</a>
+                                        <p>Klasik burgerin yeni yorumu olan bu lezzet bombası, hem tavuk
+                                            burger hem de çıtır nuggetların birleşimiyle benzersiz bir tat
+                                            deneyimi yaşatıyor. Özel sosumuz ve taze malzemelerle hazırlanan
+                                            bu burgerimiz, doyurucu bir öğün arayanlar için mükemmel seçim. </p>
+                                        <a href="#" class="sec-btn">Devamını Oku</a>
                                     </div>
                                 </div>
                             </div>
@@ -1083,14 +1204,13 @@
                                     <div class="bg-overlay dark-overlay"></div>
                                     <div class="sec-wp">
                                         <div class="newsletter-box-text">
-                                            <h2 class="h2-title">Subscribe our newsletter</h2>
-                                            <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit ad
-                                                veritatis.</p>
+                                            <h2 class="h2-title">Bültenimize Abone Olun</h2>
+                                            <p>En yeni tariflerimiz, özel kampanyalarımız ve restoranımızdan haberlerden ilk siz haberdar olun.</p>
                                         </div>
                                         <form action="#" class="newsletter-form">
                                             <input type="email" class="form-input"
-                                                   placeholder="Enter your Email Here" required>
-                                            <button type="submit" class="sec-btn primary-btn">Submit</button>
+                                                   placeholder="Mail ile giriş yap" required>
+                                            <button type="submit" class="sec-btn primary-btn">Abone Ol</button>
                                         </form>
                                     </div>
                                 </div>
@@ -1114,7 +1234,7 @@
                                             <img src="img/logo.png" alt="">
                                         </a>
                                     </div>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, tenetur.
+                                    <p>Sosyal Medyada Da Bizimle Olun. Lezzetli Anlarımızı Paylaşalım.
                                     </p>
                                     <div class="social-icon">
                                         <ul>
@@ -1145,31 +1265,31 @@
                             <div class="col-lg-8">
                                 <div class="footer-flex-box">
                                     <div class="footer-table-info">
-                                        <h3 class="h3-title">open hours</h3>
+                                        <h3 class="h3-title">Çalışma Saatleri</h3>
                                         <ul>
-                                            <li><i class="uil uil-clock"></i> Monday - Thursday : 9am - 22pm</li>
-                                            <li><i class="uil uil-clock"></i> Friday - Sunday : 11am - 22pm</li>
+                                            <li><i class="uil uil-clock"></i> Pazartesi - Perşembe :  09:00 - 22:00</li>
+                                            <li><i class="uil uil-clock"></i> Cuma - Pazar : 11:00- 22:00</li>
                                         </ul>
                                     </div>
                                     <div class="footer-menu food-nav-menu">
-                                        <h3 class="h3-title">Links</h3>
+                                        <h3 class="h3-title">Linkler</h3>
                                         <ul class="column-2">
                                             <li>
-                                                <a href="#home" class="footer-active-menu">Home</a>
+                                                <a href="#home" class="footer-active-menu">Anasayfa</a>
                                             </li>
-                                            <li><a href="#about">About</a></li>
-                                            <li><a href="#menu">Menu</a></li>
-                                            <li><a href="#gallery">Gallery</a></li>
+                                            <li><a href="#about">Hakkımızda</a></li>
+                                            <li><a href="#menu">Menü</a></li>
+                                            <li><a href="#gallery">Galeri</a></li>
                                             <li><a href="#blog">Blog</a></li>
-                                            <li><a href="#contact">Contact</a></li>
+                                            <li><a href="#contact">İletişim</a></li>
                                         </ul>
                                     </div>
                                     <div class="footer-menu">
-                                        <h3 class="h3-title">Company</h3>
+                                        <h3 class="h3-title">Yasal Bilgiler</h3>
                                         <ul>
-                                            <li><a href="#">Terms & Conditions</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Cookie Policy</a></li>
+                                            <li><a href="#">Şartlar ve Koşullar</a></li>
+                                            <li><a href="#">Gizlilik Politikası</a></li>
+                                            <li><a href="#">Çerez Politikası</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1183,7 +1303,7 @@
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <div class="copyright-text">
-                                <p>Copyright &copy; 2021 <span class="name">TechieCoder.</span>All Rights Reserved.
+                                <p>Telif Hakkı &copy; 2021 <span class="name">TechieCoder.</span>Tüm Hakları Saklıdır.
                                 </p>
                             </div>
                         </div>
