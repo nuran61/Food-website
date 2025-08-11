@@ -33,6 +33,7 @@ img {
     border-radius: .5rem;
     color: #0d0d25;
     cursor: pointer;
+    background: none;
 }
 .btn:hover {
     background: #0c4128;
@@ -233,8 +234,123 @@ img {
 .cart-items-scroll::-webkit-scrollbar {
     display: none;
 }
-/***********/
+/*****************************/
+.login-form {
+    position: absolute;
+    width: 30rem;
+    top: 110%;
+    right: -40rem; /* aynısı */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    padding: 2rem;
+    border-radius: 1rem;
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.4s linear; /* hız ve easing shopping-cart ile aynı */
+}
 
+.login-form h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ff7e00;
+}
+
+.login-form .box {
+    width: 100%;
+    border: 0 solid;
+    margin: .7rem 0;
+    background: #fafafa;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 25px;
+    color: #0d0d25;
+    text-transform: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.login-form .box:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+}
+
+.login-form p {
+    font-size: 20px;
+    color: #d4d4d4;
+}
+
+
+.login-form p a {
+    color: #ff7e00;
+    text-decoration: underline;
+}
+
+
+
+.login-form.active {
+    right: 2rem;
+}
+
+.login-btn {
+    border: 0.2rem solid #0c4128;
+    margin: 1rem 0;
+    display: block;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 30px;
+    border-radius: 1rem;
+    color: #ff7e00;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background: transparent;
+    box-shadow: 0 4px 15px rgba(12, 65, 40, 0.2);
+}
+
+.login-form .login-btn:hover {
+    background: #ff7e00;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(12, 65, 40, 0.3);
+    border-color: #ff7e00;
+}
+
+/* Active (basılı) durumu */
+.login-form .login-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 12px rgba(12, 65, 40, 0.3);
+}
+
+/* Focus durumu */
+.login-form .login-btn:focus {
+    outline: none;
+    animation: pulse 1.5s infinite;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container i {
+    position: absolute;
+    right: 1rem;         /* ikon sağda */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 1.4rem;
+    pointer-events: none; /* tıklanamaz, input’a odaklanmayı engellemez */
+}
+
+.input-container .box {
+    width: 100%;
+    padding-right: 3rem; /* ikon için sağ boşluk */
+}
+
+/**********************************/
 .site-header {
     position: fixed;
     padding: 30px 0;
@@ -912,6 +1028,7 @@ p {
 }
 
 .fancybox-close-small {
+    position: fixed !important;
     top: 15px !important;
     right: 15px !important;
     background: rgba(255, 255, 255, 0.95) !important;
@@ -953,8 +1070,8 @@ p {
 @media (max-width: 768px) {
     .fancybox-slide--video .fancybox-content {
         width: 95% !important;
-        height: 60% !important;
-        max-height: 400px !important;
+        height: auto !important;
+        max-height: 80% !important;
     }
 
     .play-btn {
@@ -974,6 +1091,7 @@ p {
         height: 50% !important;
         max-height: 300px !important;
     }
+
 }
 
 /* Video arka planını açık yap */

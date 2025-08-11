@@ -2,11 +2,51 @@ $(document).ready(function ($) {
     "use strict";
 
 
+    const userButton = document.getElementById('user-button');
+    const loginForm = document.querySelector('.login-form');
+
+// Login paneli aç/kapat
+    userButton.addEventListener('click', () => {
+        loginForm.classList.toggle('active');
+    });
+
+// Dışarıya tıklayınca paneli kapat
+    document.addEventListener('click', (event) => {
+        // Tıklanan yer login paneli içinde değilse ve user butonu değilse
+        if (!loginForm.contains(event.target) && !userButton.contains(event.target)) {
+            loginForm.classList.remove('active');
+        }
+    });
+
+// ESC tuşu ile paneli kapat (bonus özellik)
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && loginForm.classList.contains('active')) {
+            loginForm.classList.remove('active');
+        }
+    });
+
+// Form submit olayını yakala (isteğe bağlı)
+    loginForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        console.log('Login form gönderildi');
+        // Burada form verilerini işleyebilirsiniz
+    });
+
+
+
+
     const cartButton = document.getElementById('cart-button');
     const shoppingCart = document.querySelector('.shopping-cart');
 
     cartButton.addEventListener('click', () => {
         shoppingCart.classList.toggle('active');
+    });
+
+    document.addEventListener('click', (event) => {
+        // Tıklanan yer sepet paneli içinde değilse ve sepet butonu değilse
+        if (!shoppingCart.contains(event.target) && !cartButton.contains(event.target)) {
+            shoppingCart.classList.remove('active');
+        }
     });
 
     document.querySelectorAll('.increment').forEach(button => {

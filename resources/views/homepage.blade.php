@@ -46,10 +46,9 @@
                     </nav>
 
 
-
                         <a href="javascript:void(0)" class="header-btn header-cart" id="cart-button">
-                            <i class="uil uil-shopping-bag"></i>
-                            <span class="cart-number">3</span>
+                            <i class="uil uil-shopping-basket"></i>
+                            <span class="cart-number">4</span>
                         </a>
 
                         <div class="shopping-cart">
@@ -66,7 +65,7 @@
                                                 <span class="quantity">1</span>
                                                 <button class="increment">+</button>
                                             </div>
-                                            <span class="price">Rs. 499</span>
+                                            <span class="price">299 ₺</span>
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +82,7 @@
                                                 <span class="quantity">1</span>
                                                 <button class="increment">+</button>
                                             </div>
-                                            <span class="price">Rs. 359</span>
+                                            <span class="price">359 ₺</span>
                                         </div>
                                     </div>
                                 </div>
@@ -100,7 +99,7 @@
                                                 <span class="quantity">1</span>
                                                 <button class="increment">+</button>
                                             </div>
-                                            <span class="price">Rs. 149</span>
+                                            <span class="price">249 ₺</span>
                                         </div>
                                     </div>
                                 </div>
@@ -116,23 +115,60 @@
                                                 <span class="quantity">1</span>
                                                 <button class="increment">+</button>
                                             </div>
-                                            <span class="price">Rs. 379</span>
+                                            <span class="price">379 ₺</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
 
-                            <div class="total"> Total : Rs. 1497 </div>
-                            <a href="#" class="btn">Checkout</a>
+                            <div class="total"> Toplam :1286 ₺</div>
+                            <a href="#" class="btn">Satın al</a>
 
                         </div>
 
+                    <!-- Header'daki buton -->
+                    <a href="javascript:void(0)" class="header-btn" id="user-button">
+                        <i class="uil uil-user"></i>
+                    </a>
 
-                        <a href="javascript:void(0)" class="header-btn">
-                            <i class="uil uil-user-md"></i>
-                        </a>
-                    </div>
+                   <form action="#" class="login-form">
+                       <h3>Giriş Yap</h3>
+                       <div class="input-container">
+                           <input type="email" placeholder="E-mail" class="box">
+                           <i class="uil uil-envelope"></i>
+                       </div>
+
+                       <div class="input-container">
+                           <input type="password" placeholder="Şifre" class="box">
+                           <i class="uil uil-lock"></i>
+                       </div>
+
+                       <p>Şifreni mi unuttun? <a href="#">Yeni şifre oluştur</a></p>
+                       <p>Hesabın yok mu? <a href="#" id="show-register">Oluştur</a></p>
+
+                       <input type="submit" value="Giriş Yap" class="login-btn">
+                   </form>
+
+                    <form action="#" class="register-form" id="register-form" style="display:none;">
+                        <h3>Kayıt Ol</h3>
+                        <div class="input-container">
+                            <input type="text" placeholder="Ad Soyad" class="box">
+                            <i class="uil uil-user"></i>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" placeholder="E-mail" class="box">
+                            <i class="uil uil-envelope"></i>
+                        </div>
+                        <div class="input-container">
+                            <input type="password" placeholder="Şifre" class="box">
+                            <i class="uil uil-lock"></i>
+                        </div>
+                        <p>Zaten hesabın var mı? <a href="#" id="show-login">Giriş Yap</a></p>
+                        <input type="submit" value="Kayıt Ol" class="login-btn">
+                    </form>
+
+                </div>
                 </div>
             </div>
         </div>
@@ -273,19 +309,19 @@
                                         <div class="filter-active"></div>
                                         <li class="filter" data-filter=".all, .breakfast, .lunch, .dinner">
                                             <img src="img/menu-1.png" alt="">
-                                            All
+                                            Hepsi
                                         </li>
                                         <li class="filter" data-filter=".breakfast">
                                             <img src="img/menu-2.png" alt="">
-                                            Breakfast
+                                            Kahvaltı
                                         </li>
                                         <li class="filter" data-filter=".lunch">
                                             <img src="img/menu-3.png" alt="">
-                                            Lunch
+                                            Öğle yemeği
                                         </li>
                                         <li class="filter" data-filter=".dinner">
                                             <img src="img/menu-4.png" alt="">
-                                            Dinner
+                                            Akşam yemeği
                                         </li>
                                     </ul>
                                 </div>
@@ -322,7 +358,7 @@
                                     <div class="dish-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>Rs. 499</b>
+                                                <b>299 ₺</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -363,7 +399,7 @@
                                     <div class="dish-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>Rs. 359</b>
+                                                <b>359 ₺</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -403,7 +439,7 @@
                                     <div class="dish-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>Rs. 149</b>
+                                                <b>249 ₺</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -444,7 +480,7 @@
                                     <div class="dish-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>Rs. 379</b>
+                                                <b>379 ₺</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -485,7 +521,7 @@
                                     <div class="dish-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>Rs. 99</b>
+                                                <b>150 ₺</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -526,7 +562,7 @@
                                     <div class="dish-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>Rs. 159</b>
+                                                <b>159 ₺</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -567,7 +603,7 @@
                                     <div class="dish-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>Rs. 99</b>
+                                                <b>385 ₺</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -608,7 +644,7 @@
                                     <div class="dish-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>Rs. 99</b>
+                                                <b>365 ₺</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -649,7 +685,7 @@
                                     <div class="dish-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>Rs. 149</b>
+                                                <b>250 ₺</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn">
@@ -827,7 +863,8 @@
                                     <div class="social-icon">
                                         <ul>
                                             <li>
-                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                <a href="#">
+                                                    <i class="uil uil-facebook-f"></i></a>
                                             </li>
                                             <li>
                                                 <a href="#">
@@ -1205,7 +1242,7 @@
                                     <div class="sec-wp">
                                         <div class="newsletter-box-text">
                                             <h2 class="h2-title">Bültenimize Abone Olun</h2>
-                                            <p>En yeni tariflerimiz, özel kampanyalarımız ve restoranımızdan haberlerden ilk siz haberdar olun.</p>
+                                            <p>En yeni tariflerimiz, özel kampanyalarımız ve restoranımızdan ilk siz haberdar olun.</p>
                                         </div>
                                         <form action="#" class="newsletter-form">
                                             <input type="email" class="form-input"
