@@ -2,6 +2,7 @@
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
 
+
 body {
     font-family: "Poppins", sans-serif;
     text-rendering: optimizeLegibility !important;
@@ -178,7 +179,7 @@ img {
 .item-details h4 {
     font-size: 1.2rem;
     margin: 0;
-    color: #ff7e00;
+    color: #ff8243;
 }
 
 .quantity-price {
@@ -235,11 +236,25 @@ img {
     display: none;
 }
 /*****************************/
+
+.user-panel {
+    position: fixed; /* tüm sayfaya göre konumlanır */
+    top: 80px;       /* yukarıdan boşluk */
+    right: 40px;     /* sağdan boşluk */
+    width: 30rem;
+    min-height: 20rem;
+    z-index: 999;    /* her şeyin üstünde olsun */
+    display: none;
+}
+.user-panel {
+    display: block;
+}
+
 .login-form {
     position: absolute;
-    width: 30rem;
-    top: 110%;
-    right: -40rem; /* aynısı */
+    width: 450px;
+    top: 0;           /* login ve register aynı top'ta hizalanır */
+    right: -40rem;
     box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     padding: 2rem;
     border-radius: 1rem;
@@ -249,12 +264,6 @@ img {
     flex-direction: column;
     align-items: center;
     transition: right 0.4s linear; /* hız ve easing shopping-cart ile aynı */
-}
-
-.login-form h3 {
-    font-size: 35px;
-    text-transform: uppercase;
-    color: #ff7e00;
 }
 
 .login-form .box {
@@ -281,7 +290,7 @@ img {
 
 
 .login-form p a {
-    color: #ff7e00;
+    color: #ff8243;
     text-decoration: underline;
 }
 
@@ -292,17 +301,16 @@ img {
 }
 
 .login-btn {
-    border: 0.2rem solid #0c4128;
-    margin: 1rem 0;
+    border: 2px solid #ff8243;
+    margin: 15px;
     display: block;
     text-align: center;
-    padding: 1rem 3rem;
-    font-size: 30px;
+    padding: 10px 15px;
+    font-size: 25px;
     border-radius: 1rem;
-    color: #ff7e00;
+    color: #ff8243;
     cursor: pointer;
     font-weight: 600;
-    text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -311,11 +319,11 @@ img {
 }
 
 .login-form .login-btn:hover {
-    background: #ff7e00;
+    background: #ff8243;
     color: #ffffff;
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(12, 65, 40, 0.3);
-    border-color: #ff7e00;
+    border-color: #ff8243;
 }
 
 /* Active (basılı) durumu */
@@ -350,6 +358,193 @@ img {
     padding-right: 3rem; /* ikon için sağ boşluk */
 }
 
+
+
+.register-form {
+    position: absolute;
+    width: 450px;
+    top: 0;                    /* aynı hizaya getirdik */
+    right: -40rem;             /* başlangıçta dışarıda (sağda) */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    padding: 2rem;
+    border-radius: 1rem;
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.4s linear, opacity 0.3s linear;
+    z-index: 20;               /* register geldiğinde login'in üstünde olsun */
+    opacity: 0;
+    pointer-events: none;      /* görünmezken tıklanmasın */
+}
+
+.register-btn {
+    border: 2px solid #ff8243;
+    margin: 15px;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 25px;
+    border-radius: 1rem;
+    color: #ff8243;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background: transparent;
+    box-shadow: 0 4px 15px rgba(12, 65, 40, 0.2);
+}
+
+.register-form .register-btn:hover {
+    background: #ff8243;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(12, 65, 40, 0.3);
+    border-color: #ff8243;
+}
+
+
+.user-panel.active .login-form {
+    right: 2rem;        /* panel içine girsin */
+    opacity: 1;
+    pointer-events: auto;
+}
+/* yazı / alan stilleri (seninkine sadık) */
+.register-form h7, .login-form h7 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #ff8243;
+    font-weight: 600;
+}
+
+.register-form .box, .login-form .box {
+    width: 100%;
+    border: 0 solid;
+    margin: .7rem 0;
+    background: #fafafa;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 25px;
+    color: #0d0d25;
+    text-transform: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.register-form .box:hover, .login-form .box:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+}
+
+.register-form p, .login-form p {
+    font-size: 18px;
+    color: #d4d4d4;
+}
+
+.register-form p a, .login-form p a {
+    color: #ff8243;
+    text-decoration: underline !important;
+}
+
+/* === AKTİF DURUM: panel'e register-open sınıfı verildiğinde === */
+.user-panel.register-open .register-form {
+    right: 2rem;        /* panel içine girsin */
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.user-panel.register-open .login-form {
+    right: -40rem;      /* login çıkıp kalsın */
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Floating Label Container */
+.input-container {
+    position: relative;
+    margin: 10px;
+}
+
+/* Input Stili */
+.input-container .box {
+    width: 100%;
+    padding: 1.2rem 1rem 0.8rem 1rem; /* üst padding artırıldı label için yer */
+    border: 2px solid #e0e0e0;
+    border-radius: 0.5rem;
+    background: #ffffff;
+    font-size: 18px;
+    color: #0d0d25;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Input Focus */
+.input-container .box:focus {
+    border-color: #ff8243;
+    box-shadow: 0 4px 20px rgba(255, 126, 0, 0.2);
+}
+
+/* Label (placeholder yerine) */
+.input-container label {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ffffff;
+    padding: 0 0.5rem;
+    color: #999;
+    font-size: 20px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+/* Label yukarı çıkma animasyonu */
+.input-container .box:focus + label,
+.input-container .box:not(:placeholder-shown) + label {
+    top: -3px;
+    transform: none;
+    font-size: 18px;
+    color: #ff8243;
+    background: #ffffff;
+}
+
+
+
+/* Icon stili */
+.input-container i {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.input-container .box:focus ~ i {
+    color: #ff8243;
+}
+.form-bottom {
+    display: flex;
+    justify-content: space-between; /* solda checkbox, sağda link */
+    align-items: center;            /* dikey ortalama */
+    gap: 30px;
+}
+
+.remember-me {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem; /* checkbox ile yazı arası boşluk */
+    color: #d4d4d4;
+}
+
+.form-bottom p {
+    margin: 0; /* varsayılan boşluğu kaldır */
+}
 /**********************************/
 .site-header {
     position: fixed;

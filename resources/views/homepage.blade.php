@@ -132,43 +132,66 @@
                         <i class="uil uil-user"></i>
                     </a>
 
-                   <form action="#" class="login-form">
-                       <h3>Giriş Yap</h3>
-                       <div class="input-container">
-                           <input type="email" placeholder="E-mail" class="box">
-                           <i class="uil uil-envelope"></i>
-                       </div>
+                    <div class="user-panel">
+                        <!-- Login -->
+                        <form action="#" class="login-form" id="login-form">
+                            <h7>KULLANICI</h7>
+                            <h7>GİRİŞİ</h7>
 
-                       <div class="input-container">
-                           <input type="password" placeholder="Şifre" class="box">
-                           <i class="uil uil-lock"></i>
-                       </div>
+                            <div class="input-container">
+                                <input type="email" placeholder=" " class="box">
+                                <label>E-mail</label>
+                                <i class="uil uil-envelope"></i>
+                            </div>
 
-                       <p>Şifreni mi unuttun? <a href="#">Yeni şifre oluştur</a></p>
-                       <p>Hesabın yok mu? <a href="#" id="show-register">Oluştur</a></p>
+                            <div class="input-container">
+                                <input type="password" placeholder=" " class="box">
+                                <label>Şifre</label>
+                                <i class="uil uil-lock"></i>
+                            </div>
 
-                       <input type="submit" value="Giriş Yap" class="login-btn">
-                   </form>
+                            <div class="form-bottom">
+                                <div class="remember-me">
+                                    <input type="checkbox" id="remember1" />
+                                    <label for="remember1">Beni hatırla</label>
+                                </div>
+                                <p>Hesabın yok mu? <a href="#" id="show-register">Oluştur</a></p>
+                            </div>
+                            <button type="submit" class="login-btn">GİRİŞ YAP</button>
+                        </form>
 
-                    <form action="#" class="register-form" id="register-form" style="display:none;">
-                        <h3>Kayıt Ol</h3>
-                        <div class="input-container">
-                            <input type="text" placeholder="Ad Soyad" class="box">
-                            <i class="uil uil-user"></i>
-                        </div>
-                        <div class="input-container">
-                            <input type="email" placeholder="E-mail" class="box">
-                            <i class="uil uil-envelope"></i>
-                        </div>
-                        <div class="input-container">
-                            <input type="password" placeholder="Şifre" class="box">
-                            <i class="uil uil-lock"></i>
-                        </div>
-                        <p>Zaten hesabın var mı? <a href="#" id="show-login">Giriş Yap</a></p>
-                        <input type="submit" value="Kayıt Ol" class="login-btn">
-                    </form>
 
-                </div>
+                        <!-- Register -->
+                        <form action="#" class="register-form" id="register-form">
+                            <h7>KAYIT OL</h7>
+                            <div class="input-container">
+                                <input type="text" placeholder=" " class="box">
+                                <label>Ad Soyad</label>
+                                <i class="uil uil-user"></i>
+                            </div>
+                            <div class="input-container">
+                                <input type="email" placeholder=" " class="box">
+                                <label>E-mail</label>
+                                <i class="uil uil-envelope"></i>
+                            </div>
+                            <div class="input-container">
+                                <input type="password" placeholder=" " class="box">
+                                <label>Şifre</label>
+                                <i class="uil uil-lock"></i>
+                            </div>
+
+
+                            <div class="form-bottom">
+                                <div class="remember-me">
+                                    <input type="checkbox" id="remember2" />
+                                    <label for="remember2">Beni hatırla</label>
+                                </div>
+                                <p>Hesabın var mı? <a href="#" id="show-login">Giriş yap</a></p>
+                            </div>
+                            <button type="submit" class="register-btn">KAYDOL</button>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -1358,9 +1381,6 @@
 
 
 
-
-
-
 <!-- jquery -->
 <script src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
 <!--bootstrop-->
@@ -1399,6 +1419,57 @@
 
 <!--custom js-->
 <script src="{{ asset('js/homepage.js') }}"></script>
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const userPanel = document.querySelector(".user-panel");
+        const userButton = document.getElementById("user-button");
+        const showRegister = document.getElementById("show-register");
+        const showLogin = document.getElementById("show-login");
+
+        userButton.addEventListener("click", function(e) {
+            e.preventDefault();
+            if (userPanel.classList.contains("register-open")) {
+                userPanel.classList.remove("register-open", "active");
+                console.log("Register panel kapandı");
+            } else {
+                userPanel.classList.toggle("active");
+                console.log("Login panel toggle");
+            }
+        });
+
+        showRegister.addEventListener("click", function(e) {
+            e.preventDefault();
+            userPanel.classList.add("register-open", "active");
+            console.log("Register panel açıldı");
+        });
+
+        showLogin.addEventListener("click", function(e) {
+            e.preventDefault();
+            userPanel.classList.remove("register-open");
+            userPanel.classList.add("active");
+            console.log("Login panel açıldı");
+        });
+
+        document.addEventListener("click", function(e) {
+            if (!userPanel.contains(e.target) && !userButton.contains(e.target)) {
+                userPanel.classList.remove("active", "register-open");
+                console.log("Panel dışına tıklanıp kapandı");
+            }
+        });
+
+        document.addEventListener("keydown", function(e) {
+            if (e.key === "Escape") {
+                userPanel.classList.remove("active", "register-open");
+                console.log("ESC ile kapandı");
+            }
+        });
+    });
+
+</script>
 
 
 </body>
