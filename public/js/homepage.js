@@ -4,20 +4,23 @@ $(document).ready(function ($) {
 
 
 
+    const cartButton = document.getElementById("cart-button");
+    const shoppingCart = document.querySelector(".shopping-cart");
 
-
-
-    const cartButton = document.getElementById('cart-button');
-    const shoppingCart = document.querySelector('.shopping-cart');
-
-    cartButton.addEventListener('click', () => {
-        shoppingCart.classList.toggle('active');
+    cartButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        shoppingCart.classList.toggle("active");
     });
 
-    document.addEventListener('click', (event) => {
-        // Tıklanan yer sepet paneli içinde değilse ve sepet butonu değilse
-        if (!shoppingCart.contains(event.target) && !cartButton.contains(event.target)) {
-            shoppingCart.classList.remove('active');
+    document.addEventListener("click", function (e) {
+        if (!shoppingCart.contains(e.target) && !cartButton.contains(e.target)) {
+            shoppingCart.classList.remove("active");
+        }
+    });
+
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+            shoppingCart.classList.remove("active");
         }
     });
 

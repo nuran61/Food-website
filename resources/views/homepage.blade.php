@@ -158,6 +158,8 @@
                                 <p>Hesabın yok mu? <a href="#" id="show-register">Oluştur</a></p>
                             </div>
                             <button type="submit" class="login-btn">GİRİŞ YAP</button>
+
+                            <a href="#" class="forgot-password" id="forgot-show">Şifreni mi unuttun?</a>
                         </form>
 
 
@@ -190,8 +192,19 @@
                             </div>
                             <button type="submit" class="register-btn">KAYDOL</button>
                         </form>
-                    </div>
+                        <form action="#" class="forgot-form" id="forgot-form">
+                            <h7>ŞİFRENİ SIFIRLA</h7>
+                            <p>Lütfen e-posta adresini gir:</p>
+                            <div class="input-container">
+                                <input type="email" class="box" id="email" placeholder="">
+                                <label for="email">E-mail</label>
+                                <i class="uil uil-envelope"></i>
+                            </div>
+                            <button type="submit" class="forgot-btn">Gönder</button>
+                            <a href="#" class="back-link" id="back-to-login">← Giriş sayfasına dön</a>
+                        </form>
 
+                    </div>
                 </div>
             </div>
         </div>
@@ -1429,45 +1442,70 @@
         const userButton = document.getElementById("user-button");
         const showRegister = document.getElementById("show-register");
         const showLogin = document.getElementById("show-login");
+        const showForgot = document.getElementById("forgot-show");
+        const backToLogin = document.getElementById("back-to-login");
 
+        // User button toggles login panel
         userButton.addEventListener("click", function(e) {
             e.preventDefault();
-            if (userPanel.classList.contains("register-open")) {
-                userPanel.classList.remove("register-open", "active");
-                console.log("Register panel kapandı");
+            if (userPanel.classList.contains("register-open") || userPanel.classList.contains("forgot-open")) {
+                userPanel.classList.remove("register-open", "forgot-open", "active");
+                console.log("Register veya Forgot panel kapandı");
             } else {
                 userPanel.classList.toggle("active");
                 console.log("Login panel toggle");
             }
         });
 
+        // Show register
         showRegister.addEventListener("click", function(e) {
             e.preventDefault();
             userPanel.classList.add("register-open", "active");
+            userPanel.classList.remove("forgot-open");
             console.log("Register panel açıldı");
         });
 
+        // Show login
         showLogin.addEventListener("click", function(e) {
             e.preventDefault();
-            userPanel.classList.remove("register-open");
+            userPanel.classList.remove("register-open", "forgot-open");
             userPanel.classList.add("active");
             console.log("Login panel açıldı");
         });
 
+        // Show forgot password
+        showForgot.addEventListener("click", function(e) {
+            e.preventDefault();
+            userPanel.classList.add("forgot-open", "active");
+            userPanel.classList.remove("register-open");
+            console.log("Forgot Password panel açıldı");
+        });
+
+        // Back to login from forgot
+        backToLogin.addEventListener("click", function(e) {
+            e.preventDefault();
+            userPanel.classList.remove("forgot-open");
+            userPanel.classList.add("active");
+            console.log("Forgot'tan login'e dönüldü");
+        });
+
+        // Panel dışına tıklayınca kapansın
         document.addEventListener("click", function(e) {
             if (!userPanel.contains(e.target) && !userButton.contains(e.target)) {
-                userPanel.classList.remove("active", "register-open");
+                userPanel.classList.remove("active", "register-open", "forgot-open");
                 console.log("Panel dışına tıklanıp kapandı");
             }
         });
 
+        // ESC ile panel kapansın
         document.addEventListener("keydown", function(e) {
             if (e.key === "Escape") {
-                userPanel.classList.remove("active", "register-open");
+                userPanel.classList.remove("active", "register-open", "forgot-open");
                 console.log("ESC ile kapandı");
             }
         });
     });
+
 
 </script>
 
