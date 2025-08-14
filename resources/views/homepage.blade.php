@@ -1504,6 +1504,26 @@
                 console.log("ESC ile kapandı");
             }
         });
+
+        const formElements = document.querySelectorAll('.login-form, .register-form, .forgot-form');
+
+        let originalHeight = window.innerHeight;
+
+        window.addEventListener('resize', () => {
+            const newHeight = window.innerHeight;
+
+            if (newHeight < originalHeight) {
+                // Klavye açıldı (yükseklik azaldı)
+                formElements.forEach(form => {
+                    form.style.overflowY = 'auto';
+                });
+            } else {
+                // Klavye kapandı
+                formElements.forEach(form => {
+                    form.style.overflowY = 'hidden';
+                });
+            }
+        });
     });
 
 
