@@ -27,7 +27,7 @@
             <div class="col-lg-2">
                 <div class="header-logo">
                     <a href="index.html">
-                        <img src="img/logo.png" width="160" height="36" alt="Logo">
+                        <img src="img/logo.png" width="140" height="36" alt="Logo">
                     </a>
                 </div>
             </div>
@@ -122,8 +122,10 @@
                             </div>
 
 
-                            <div class="total"> Toplam :1286 ₺</div>
-                            <a href="#" class="btn">Satın al</a>
+                            <div class="cart-summary">
+                                <div class="total">Toplam : 1286 ₺</div>
+                                <a href="#" class="btn">Satın al</a>
+                            </div>
 
                         </div>
 

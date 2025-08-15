@@ -43,6 +43,27 @@ $(document).ready(function ($) {
     });
 
 
+// Ürün silme
+    document.querySelectorAll('.shopping-cart .fa-trash').forEach(trashIcon => {
+        trashIcon.addEventListener('click', function (event) {
+            event.stopPropagation(); // panel kapanmasın
+            this.closest('.box').remove();
+            updateTotal();
+        });
+    });
+
+// Toplam hesaplama
+    function updateTotal() {
+        let total = 0;
+        document.querySelectorAll('.shopping-cart .price').forEach(priceEl => {
+            let price = parseFloat(priceEl.textContent.replace('₺', '').trim());
+            total += price;
+        });
+        document.querySelector('.shopping-cart .total').textContent = `Toplam : ${total} ₺`;
+    }
+
+
+
     var book_table = new Swiper(".book-table-img-slider", {
         slidesPerView: 1,
         spaceBetween: 20,

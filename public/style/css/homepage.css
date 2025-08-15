@@ -53,6 +53,7 @@ img {
     background: #ffffff;
     transition: .4s linear;
 }
+
 .shopping-cart.active {
     right: 2rem;
 }
@@ -234,6 +235,289 @@ img {
 .cart-items-scroll::-webkit-scrollbar {
     display: none;
 }
+
+@media (max-width: 544px) {
+    .shopping-cart {
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        right: auto; /* sağ pozisyonu iptal */
+        position: absolute;
+        transition: .4s linear;
+    }
+
+    /* Kapalı hali - ekranın sağ dışında */
+    .shopping-cart {
+        transform: translateX(calc(100% + 50vw));
+    }
+
+    /* Açık hali - tam ortalanmış */
+    .shopping-cart.active {
+        transform: translateX(-50%);
+    }
+
+
+}
+
+@media (max-width: 492px) {
+    .shopping-cart {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        right: auto; /* sağ pozisyonu iptal */
+        position: absolute;
+        transition: .4s linear;
+    }
+
+    /* Kapalı hali - ekranın sağ dışında */
+    .shopping-cart {
+        transform: translateX(calc(100% + 50vw));
+    }
+
+    /* Açık hali - tam ortalanmış */
+    .shopping-cart.active {
+        transform: translateX(-50%);
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .shopping-cart {
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        right: auto; /* sağ pozisyonu iptal */
+        position: absolute;
+        transition: .4s linear;
+        height: 610px;
+    }
+
+    /* Kapalı hali - ekranın sağ dışında */
+    .shopping-cart {
+        transform: translateX(calc(100% + 50vw));
+    }
+
+    /* Açık hali - tam ortalanmış */
+    .shopping-cart.active {
+        transform: translateX(-50%);
+    }
+
+    .shopping-cart .box {
+        padding: 12px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .shopping-cart .box img {
+        height: 90px;
+        margin-right: 15px;
+    }
+
+    .shopping-cart .box .fa-trash {
+        font-size: 17px;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+
+    .shopping-cart .box .content h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .shopping-cart .box .content span {
+        font-size: 18px;
+    }
+    .shopping-cart .total {
+        padding: 1rem;
+        margin: 1rem 0;
+        font-size: 20px;
+    }
+
+    /* Checkout butonunu güzelleştirme - parlak efekt olmadan */
+    .shopping-cart .btn {
+        margin: 1rem 0;
+        padding: 1rem;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .quantity-controls button {
+
+        padding: 0.2rem 0.5rem;
+        font-size: 1.2rem;
+    }
+    .cart-items-scroll {
+        max-height: 410px;
+        overflow-y: auto;
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 400px) {
+    .shopping-cart {
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        right: auto; /* sağ pozisyonu iptal */
+        position: absolute;
+        transition: .4s linear;
+        height: 590px;
+    }
+
+    /* Kapalı hali - ekranın sağ dışında */
+    .shopping-cart {
+        transform: translateX(calc(100% + 50vw));
+    }
+
+    /* Açık hali - tam ortalanmış */
+    .shopping-cart.active {
+        transform: translateX(-50%);
+    }
+
+    .shopping-cart .box {
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .shopping-cart .box img {
+        height: 90px;
+        margin-right: 15px;
+    }
+
+    .shopping-cart .box .fa-trash {
+        font-size: 17px;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+
+    .shopping-cart .box .content h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .shopping-cart .box .content span {
+        font-size: 18px;
+    }
+    .shopping-cart .total {
+        padding: 1rem;
+        margin: 1rem 0;
+        font-size: 20px;
+    }
+
+    /* Checkout butonunu güzelleştirme - parlak efekt olmadan */
+    .shopping-cart .btn {
+        margin: 1rem 0;
+        padding: 1rem;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+
+    .quantity-controls button {
+
+        padding: 0.2rem 0.5rem;
+        font-size: 1.2rem;
+    }
+    .cart-items-scroll {
+        max-height: 390px;
+        overflow-y: auto;
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .shopping-cart {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        right: auto; /* sağ pozisyonu iptal */
+        position: absolute;
+        transition: .4s linear;
+        z-index: 999999;
+        height: 450px;
+    }
+
+
+    /* Kapalı hali - ekranın sağ dışında */
+    .shopping-cart {
+        transform: translateX(calc(100% + 50vw));
+    }
+
+    /* Açık hali - tam ortalanmış */
+    .shopping-cart.active {
+        transform: translateX(-50%);
+    }
+
+    .shopping-cart .box {
+        padding: 8px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+
+    .shopping-cart .box img {
+        height: 75px;
+        margin-right: 12px;
+    }
+
+    .shopping-cart .box .fa-trash {
+        font-size: 15px;
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        transform: translateY(-50%);
+    }
+
+    .shopping-cart .box .content h3 {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+    .shopping-cart .box .content span {
+        font-size: 18px;
+    }
+    .shopping-cart .total {
+        padding: .5rem;
+        margin: .5rem 0;
+        font-size: 18px;
+    }
+
+    .shopping-cart .btn {
+        margin: .5rem 0;
+        padding: .5rem;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .quantity-controls button {
+
+        padding: 0.1rem 0.3rem;
+        font-size: 1rem;
+    }
+
+    .cart-items-scroll {
+        max-height: 310px;
+        overflow-y: auto;
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+
 
 /*****************************/
 
@@ -500,12 +784,24 @@ h7 {
     .login-form,
     .register-form,
     .forgot-form {
-        width: 90%;
-        max-width: 350px;
-        padding: 25px;
+        position: fixed;
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 100%;
+        max-width: 400px;        /* Uygun max genişlik */
+        padding: 20px 15px;
+        margin: 0 auto;
+        box-sizing: border-box;
+
         border-radius: 1rem;
-        right: 1rem;
-        overflow-x: hidden;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        z-index: 1000;
+
+        overflow-x: hidden;       /* YATAY scroll'u engelle */
+        overflow-y: auto;         /* DİKEY scroll gerektiğinde çalışsın */
     }
 
     .login-form .box,
@@ -518,7 +814,7 @@ h7 {
     .login-form h7,
     .register-form h7,
     .forgot-form h7 {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .login-btn,
@@ -531,13 +827,20 @@ h7 {
 
     .input-container label,
     .forgot-form label {
-        font-size: 16px;
+        font-size: 18px;
+    }
+
+    .form-bottom {
+        display: block !important;
+        margin-left: 0 !important;
+        width: 100%;
+        text-align: left; /* veya center */
     }
 }
 
 
-/* ========== Ekran 440px ve altı ========== */
-@media (max-width: 440px) {
+/* ========== Ekran 492px ve altı ========== */
+@media (max-width: 492px) {
     .login-form,
     .register-form,
     .forgot-form {
@@ -547,7 +850,7 @@ h7 {
         transform: translateX(-50%);
 
         width: 100%;
-        max-width: 340px;        /* Uygun max genişlik */
+        max-width: 400px;        /* Uygun max genişlik */
         padding: 20px 15px;
         margin: 0 auto;
         box-sizing: border-box;
@@ -587,22 +890,81 @@ h7 {
         font-size: 20px;
     }
 
+
     .form-bottom {
-        margin-bottom: 0;
+        display: block !important;
+        justify-content: flex-start !important;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0 !important;
+        width: 100%;
     }
 
-    .login-form p,
-    .remember-me {
+}
+
+@media (max-width: 450px) {
+    .login-form,
+    .register-form,
+    .forgot-form {
+        position: fixed;
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 100%;
+        max-width: 360px;        /* Uygun max genişlik */
+        padding: 20px 15px;
+        margin: 0 auto;
+        box-sizing: border-box;
+
+        border-radius: 1rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        z-index: 1000;
+
+        overflow-x: hidden;       /* YATAY scroll'u engelle */
+        overflow-y: auto;         /* DİKEY scroll gerektiğinde çalışsın */
+    }
+
+    .login-form .box,
+    .register-form .box,
+    .forgot-form .box {
         font-size: 18px;
+        padding: 0.7rem;
     }
 
+    .login-form h7,
+    .register-form h7,
+    .forgot-form h7 {
+        font-size: 25px;
+    }
+
+    .login-btn,
+    .register-btn,
+    .forgot-btn {
+        font-size: 18px;
+        padding: 7px 10px;
+        margin: 8px;
+    }
+
+    .input-container label,
+    .forgot-form label {
+        font-size: 20px;
+    }
+
+
     .form-bottom {
-        display: block;
+        display: block !important;
+        justify-content: flex-start !important;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0 !important;
+        width: 100%;
     }
 }
 
-/* ========== Ekran 360px ve altı - YATAY ORTALAMA + optimize ========== */
-@media (max-width: 360px) {
+/* ========== Ekran 400px ve altı - YATAY ORTALAMA + optimize ========== */
+@media (max-width: 400px) {
     .login-form,
     .register-form,
     .forgot-form {
@@ -660,20 +1022,22 @@ h7 {
     }
 
     .form-bottom {
-        margin-bottom: 0;
-        display: block;
-    }
-
-    .login-form p,
-    .remember-me {
-        font-size: 18px;
+        display: block !important;
+        justify-content: flex-start !important;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0 !important;
+        width: 100%;
     }
 
   }
 
 
+
 /* ========== Ekran 320px ve altı - YATAY ORTALAMA + optimize ========== */
 @media (max-width: 320px) {
+
+
     .login-form,
     .register-form,
     .forgot-form {
@@ -733,21 +1097,15 @@ h7 {
     }
 
     .form-bottom {
-        margin-bottom: 0;
+        display: block !important;
+        justify-content: flex-start !important;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0 !important;
+        width: 100%;
     }
 
-    .login-form p,
-    .remember-me {
-        font-size: 18px;
-    }
-
-    .form-bottom {
-        display: block;
-    }
 }
-
-
-
 
 /**********************************/
 .site-header {
@@ -858,6 +1216,11 @@ ul {
     transition: 0.3s;
     box-shadow: 10px 10px 30px #d4d4d4, -10px -10px 30px #ffffff;
     align-items: center;
+}
+
+#cart-button.header-btn.header-cart {
+    margin-right: 10px;
+    box-shadow: 10px 10px 30px #d4d4d4, -10px -10px 30px #ffffff;
 }
 
  .cart-number {
@@ -1085,9 +1448,8 @@ ul {
     .main-navigation .menu .sub-menu li a {
         color: #ff8243;
     }
-    .header-btn.header-cart {
-        display: none;
-    }
+
+
     .header-btn {
         margin: 0;
         margin-right: 70px;
