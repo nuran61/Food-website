@@ -1350,7 +1350,7 @@
                                         <h3 class="h3-title">Linkler</h3>
                                         <ul class="column-2">
                                             <li>
-                                                <a href="#home" class="footer-active-menu">Anasayfa</a>
+                                                <a href="#" class="footer-active-menu">Anasayfa</a>
                                             </li>
                                             <li><a href="#about">Hakkımızda</a></li>
                                             <li><a href="#menu">Menü</a></li>

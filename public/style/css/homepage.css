@@ -118,7 +118,7 @@ img {
     border: 1px solid #e0e0e0;
 }
 
-/* Checkout butonunu güzelleştirme - parlak efekt olmadan */
+
 .shopping-cart .btn {
     border: 0.2rem solid #0c4128;
     margin: 1rem 0;
@@ -138,7 +138,7 @@ img {
     box-shadow: 0 4px 15px rgba(12, 65, 40, 0.2);
 }
 
-/* Hover efektleri - shimmer olmadan */
+
 .shopping-cart .btn:hover {
     background: #0c4128;
     color: #ffffff;
@@ -147,13 +147,13 @@ img {
     border-color: #0c4128;
 }
 
-/* Active (basılı) durumu */
+
 .shopping-cart .btn:active {
     transform: translateY(-1px);
     box-shadow: 0 3px 12px rgba(12, 65, 40, 0.3);
 }
 
-/* Focus durumu */
+
 .shopping-cart .btn:focus {
     outline: none;
     animation: pulse 1.5s infinite;
@@ -289,10 +289,12 @@ img {
         left: 50%;
         transform: translateX(-50%);
         width: 90%;
-        right: auto; /* sağ pozisyonu iptal */
+        right: auto;
         position: absolute;
         transition: .4s linear;
-        height: 610px;
+        height: auto;
+        max-height: 90vh;
+        overflow-y: auto;
     }
 
     /* Kapalı hali - ekranın sağ dışında */
@@ -336,7 +338,6 @@ img {
         font-size: 20px;
     }
 
-    /* Checkout butonunu güzelleştirme - parlak efekt olmadan */
     .shopping-cart .btn {
         margin: 1rem 0;
         padding: 1rem;
@@ -365,10 +366,12 @@ img {
         left: 50%;
         transform: translateX(-50%);
         width: 90%;
-        right: auto; /* sağ pozisyonu iptal */
+        right: auto;
         position: absolute;
         transition: .4s linear;
-        height: 590px;
+        height: auto;
+        max-height: 90vh;
+        overflow-y: auto;
     }
 
     /* Kapalı hali - ekranın sağ dışında */
@@ -413,7 +416,6 @@ img {
         font-size: 20px;
     }
 
-    /* Checkout butonunu güzelleştirme - parlak efekt olmadan */
     .shopping-cart .btn {
         margin: 1rem 0;
         padding: 1rem;
@@ -448,7 +450,9 @@ img {
         position: absolute;
         transition: .4s linear;
         z-index: 999999;
-        height: 450px;
+        height: auto;
+        max-height: 100vh;
+        overflow-y: auto;
     }
 
 
